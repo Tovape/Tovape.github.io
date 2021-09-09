@@ -1,115 +1,820 @@
 <!DOCTYPE HTML>
-<html class="firstbod">
-	<link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+<html lang="en-US">
+	<link rel="icon" href="img/ico/ico.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="javascript.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+	<script src="https://kit.fontawesome.com/6308dbf55d.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <head>
 	<title>Tovape</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<table id="foo" width=100% cellspacing=0 cellpadding=0 align=top border=0>
-	<tr>
-		<td>
-	<div class="dropdown" align="left">
-		<button class="dropbtn"><strong>Media</strong></button>
-	<div class="dropdown-content">
-		<div onclick="linkedin()" class="aligner glow-on-hover linkedin">
-		<a href="">Linkedin</a>		
-		<img src="img/linkedin.png"></img>
-		</div>
-		<div onclick="reddit()" class="aligner glow-on-hover reddit">
-		<a href="">Reddit</a>
-		<img src="img/reddit.png"></img>
-		</div>
-		<div onclick="youtube()" class="aligner glow-on-hover youtube">
-		<a href="">Youtube</a>
-		<img src="img/youtube.png"></img>
-		</div>
-		<div onclick="steam()" class="aligner glow-on-hover steam">
-		<a href="">Steam</a>
-		<img src="img/steam.png"></img>
-		</div>
-		<div class="aligner glow-on-hover discord">
-		<a>Tovape#9946</a>
-		<img src="img/discord.png"></img>
-		</div>
-	</div>
-	</div>
-		</td>
-		<td>
-	<div class="dropdown" align="left">
-		<button class="dropbtn"><strong>Contact</strong></button>
-	<div class="dropdown-content">
-		<div onclick="mail()" class="aligner glow-on-hover mail">
-		<a href="">Email Me</a>
-		<img src="img/mail.png"></img>
-		</div>
-		<div onclick="cv1()" class="aligner glow-on-hover cat">
-		<a href="">My Resume</a>
-		<img class="borderless" src="img/cat.png"></img>
-		</div>
-		<div onclick="cv2()" class="aligner glow-on-hover es">
-		<a href="">My Resume</a>
-		<img class="borderless" src="img/es.png"></img>
-		</div>
-		<div onclick="cv3()" class="aligner glow-on-hover us">
-		<a href="">My Resume</a>
-		<img class="borderless" src="img/us.png"></img>
-		</div>
-	</div>
-	</div>
-		</td>
-		<td class="gradient">
-			<div align="right">
-				<ul><strong>
-					<li><a class="menu" onclick="carbot()" href="">CARBOT</a></li>
-					<li><a class="menu" href="https://3studio.000webhostapp.com">3DSTUDIO</a></li>
-					<li><a class="menu" onclick="blender()" href="">BLENDER</a></li>
-					<li><a class="menu" onclick="home()" href="">HOME</a></li>
-				</ul></strong>
-			</div>
-		</td>
-</table>
+	<meta charset="UTF-8"/>
+	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
 </head>
-<body id="foo">
 
-<center>
-	<div>
-		<img class="tovape" src="img/tovape.png" data-tilt data-tilt-full-page-listening>
+<body>
+
+<button onclick="topFunction()" id="topid" class="top"><i class="fa fa-arrow-up"></i></button>
+
+<hr class="bluehr">
+
+<div class="menu" id="home">
+
+	<div class="left">
+		<h1><span style="color:var(--blue)">T</span>oni <span style="color:var(--blue)">V</span>alverde <span style="color:var(--blue)">P</span>erich</h1>
 	</div>
-</center>
 
-<!-- 
-Description Table Starts Here
--->
+	<div class="right">
 
-<table class="table" CELLSPACING=0 CELLPADDING=0 ALIGN=left BORDER=0>
-	<TR class="cell">
-		<TD class="subcell"><strong>About Me</strong></TD>
-	</TR>
-	<TR class="cell">
-		<TD>
-            <p style="color:white;">Hola me llamo Toni Valverde<br>Soy un estudiante de 18 Años en el campo de informática, enfocado en desarrollo web, mantenimiento de sistemas, resolución de problemas helpdesk y modelado 3d<br>Me gusta mantenerme al día con nuevos desafíos para afrontar<br>Amante de la Música<br>Editor/Modelador con experiencia<br>Contacto por Email en el menú de Contacto</p>
-		</TD>
-	</TR>
-	<TR class="cell">
-		<TD class="subcell"><strong>Contact</strong></TD>
-	</TR>
-	<TR>
-		<TD>
-            <p style="color:white;">Gmail: tovapebusiness@gmail.com<br>Phone: +34 605 17 17 85<br>Check my Linkedin for my Resume!</p>
-		</TD>
-	</TR>
-</table>
+	<a class="limenu" href="./index.html#home">			Home</a>
+	<a class="limenu" href="./index.html#introduction">	Introduction</a>
+	<a class="limenu" href="./index.html#projects">		Projects</a>
+	<a class="limenu" href="./index.html#contact">		Contact</a>
 
-	<script type="text/javascript" src="tilt.js">
+	</div>
 
-	VanillaTilt.init(document.querySelector(".card"), {
-		max: 25,
-		speed: 400
-	});
+</div>
 
-	</script>
+<div class="container">
+
+<div id="slider">
+
+<div class="scroll">
+	<i class="fa fa-arrow-down fa-2x rainbow"></i><span> Scroll </span><i class="fa fa-arrow-down fa-2x rainbow"></i>
+</div>
+
+	<figure>
+		<img src="./blender/antonov225.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
+		<img src="./blender/wind.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
+		<img src="./blender/goldengate.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
+		<img src="./blender/volvofront.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
+		<img src="./blender/laptop.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
+	</figure>	
+</div>
+
+</div>
+
+<div id="introduction" class="introduction">
+
+<div class="sections">
+
+	<div class="separator">
+	<i class="fas fa-code"></i><a class="submenu" href="./index.html#projects">			Web Developer</a>
+	</div>
+	<div class="separator">
+	<i class="fas fa-cubes"></i><a class="submenu" href="./index.html#design">			2D/3D Designer</a>
+	</div>
+	<div class="separator">
+	<i class="fas fa-desktop"></i><a class="submenu" href="./index.html#helpdesk">	HelpDesk</a>
+	</div>
+	
+</div>
+
+<img class="pfp" src="./img/media/me.jpg" onerror="this.onerror=null; this.src='./img/notfound/avatar.png'" alt><h2>Toni Valverde</h2>
+				
+	<div class="social" align="center">
+		<a href="https://www.linkedin.com/in/tovape/">
+			<img src="./img/media/linkedin.png">
+		</a>
+		<a href="https://www.youtube.com/channel/UCZ0WVSWlskwvf6tXZCYjLpQ">
+			<img src="./img/media/youtube.png">
+		</a>
+		<a href="https://www.reddit.com/user/tovape75">
+			<img src="./img/media/reddit.png">
+		</a>
+		<a href="mailto:tovapebusiness@gmail.com">
+			<img src="./img/media/mail.png">
+		</a>
+		<a href="https://github.com/Tovape">
+			<img src="./img/media/github.png">
+		</a>
+	</div>
+	
+	<p>
+	Welcome to my portafolio webpage!<br>
+	I like making webpages, whether it is Frontend or Backend, there's always something new to learn and a new skill to improve.<br>
+	I also love 3d modeling and texture making<br>
+	Here you will find any information you need about me<br>
+	</p>
+
+</div>
+
+<hr class="greyhr">
+
+<div id="projects" class="information">
+
+<h1>Web Developer</h1>
+
+<div class="sections">
+
+	<div class="separator2">
+	<h4 id="startid" data-filter="skills" class="selector">			Skills</h4>
+	</div>
+	<div class="separator2">
+	<h4 data-filter="projects" class="selector">					Projects</h4>
+	</div>
+	
+</div>
+
+<div class="container">
+	
+	<div class="itemBox skills">
+		<div class="each">
+			<img src="./img/ico/html.png">
+			<h2>HTML</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:90%;background-color: #e44d26">90%</div>
+			</div>
+			<p>4 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/css.png">
+			<h2>CSS</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:80%;background-color: #264de4">80%</div>
+			</div>
+			<p>3 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/js.png">
+			<h2>JavaScript</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:64%;background-color: #e4bd00">64%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/php.png">
+			<h2>PHP</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:40%;background-color: #777bb3">40%</div>
+			</div>
+			<p>1 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/mysql.png">
+			<h2>MySQL</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:65%;background-color: #006d91">65%</div>
+			</div>
+			<p>1 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/jquery.png">
+			<h2>JQuery</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:50%;background-color: #0868ab">50%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/nodejs.png">
+			<h2>NodeJs</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:53%;background-color: #6ca05e">53%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/sap.png">
+			<h2>SAP ABAP</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:26%;background-color: #0d92d9">26%</div>
+			</div>
+			<p>5 Months of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/yaml.png">
+			<h2>YAML</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:13%;background-color: #000000">13%</div>
+			</div>
+			<p>2 Months of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/phpmailer.png">
+			<h2>PHP Mailer</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:38%;background-color: #f9cd6e">38%</div>
+			</div>
+			<p>2 Months of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/wikijs.png">
+			<h2>WikiJS</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:31%;background-color: #e1dc4d">31%</div>
+			</div>
+			<p>1 Month of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/discordjs.png">
+			<h2>Discord.js</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:68%;background-color: #7289d9">68%</div>
+			</div>
+			<p>1 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/express.png">
+			<h2>Express</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar black" style="width:46%;background-color: #ffffff">46%</div>
+			</div>
+			<p>2 Months of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/bash.png">
+			<h2>Bash</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:42%;background-color: #3e474a">42%</div>
+			</div>
+			<p>1 Months of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/powershell.png">
+			<h2>PowerShell</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:65%;background-color: #0277bd">65%</div>
+			</div>
+			<p>7 Months of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/cmd.png">
+			<h2>Cmd</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:71%;background-color: #999999">71%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/npm.png">
+			<h2>NPM</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:67%;background-color: #cb3837">67%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/moodle.png">
+			<h2>Moodle</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:29%;background-color: #f98012">29%</div>
+			</div>
+			<p>1 Month of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/xampp.png">
+			<h2>XAMPP</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:82%;background-color: #fb7a24">82%</div>
+			</div>
+			<p>1 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/wordpress.png">
+			<h2>WordPress</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:46%;background-color: #49a6cb">46%</div>
+			</div>
+			<p>6 Months of Experience</p>
+		</div>
+	</div>
+	
+	<div class="itemBox projects">
+		<div class="each">
+			<a href="https://3studio.000webhostapp.com/">
+			<img src="./img/projects/3studio.png"><br>
+			<img src="./img/projects/3studiopreview.png">
+			<h2>Studio Themed Webpage</h2>
+			</a>
+		</div>
+		<div class="each">
+			<a href="https://lacasadeasterion.company">
+			<img src="./img/projects/asterion.png"><br>
+			<img src="./img/projects/asterionpreview.png">
+			<h2>Artistic Themed Webpage</h2>
+			</a>
+		</div>
+	</div>
+	
+</div>
+
+<h1 id="design">2D/3D Designer</h1>
+
+<div class="sections">
+
+	<div class="separator2">
+	<h4 id="startid" class="selector2" data-filter="skills">Skills</h4>
+	</div>
+	
+	<div class="separator2">
+	<h4 class="selector2" data-filter="work">Work</h4>
+	</div>
+	
+</div>
+
+<div class="container">
+
+	<div class="itemBox2 skills">
+		<div class="each">
+			<img src="./img/ico/blender.png">
+			<h2>Blender</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:89%;background-color: #ea7600">89%</div>
+			</div>
+			<p>1 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/photoshop.png">
+			<h2>Photoshop</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:78%;background-color: #70c2fe">78%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/substance.png">
+			<h2>Adobe Substance</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:31%;background-color: #f04e25">31%</div>
+			</div>
+			<p>2 Months of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/gimp.png">
+			<h2>Gimp</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:42%;background-color: #746c57">42%</div>
+			</div>
+			<p>1 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/vegas.png">
+			<h2>Sony Vegas</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:86%;background-color: #1195cf">86%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/xd.png">
+			<h2>Adobe Xd</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:66%;background-color: #ff27c7">66%</div>
+			</div>
+			<p>1 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/medibang.png">
+			<h2>Medibang Paint</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:69%;background-color: #c3df00">69%</div>
+			</div>
+			<p>6 Months of Experience</p>
+		</div>
+	</div>
+	
+	<div class="itemBox2 work">
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/town.png">
+			<h2>Modern Building</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/sodas.png">
+			<h2>Black Ops Perk-a-Colas</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/92FS.png">
+			<h2>Beretta 92FS Gun</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/thompson.png">
+			<h2>Thompson Submachine</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/chess.png">
+			<h2>Chess</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/mac.png">
+			<h2>MAC Submachine</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/ak47.png">
+			<h2>AK47</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/trafficlight.png">
+			<h2>Traffic Light</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/pick1.png">
+			<h2>Fortnite Skull Sickle</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/mantle.png">
+			<h2>Fortnite Radiant Mantle</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/hdd.png">
+			<h2>Hard Drive</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/watch.png">
+			<h2>Minimalist Wristwatch</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/wand.png">
+			<h2>Svtfoe S3 Wand</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/minigun.png">
+			<h2>Minigun</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/sunglasses1.png">
+			<h2>Sunglasses</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/sunglasses2.png">
+			<h2>Aviation Sunglasses</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/casino.png">
+			<h2>Casino</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/piano.png">
+			<h2>Piano Roland LX706</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/waves.png">
+			<h2>Waves</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/dna.png">
+			<h2>DNA</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/747.png">
+			<h2>Airbus 747</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/dominator.png">
+			<h2>Psycho Pass Dominator</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/raygun.png">
+			<h2>Black Ops Raygun</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/laptop.png">
+			<h2>Laptop TerraQue</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/gallardo.png">
+			<h2>‎Lamborghini Gallardo</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/antonov225.png">
+			<h2>‎Antonov 225</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/monaro.png">
+			<h2>‎Holden Monaro 2005</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/magnifyinglass.png">
+			<h2>‎Magnifying Glass</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/torpedo.png">
+			<h2>Torpedo</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/padlock.png">
+			<h2>Padlock</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/mapfre.png">
+			<h2>Torre Mapfre Barcelona</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/harts.png">
+			<h2>‎Hotel Arts Barcelona</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/goldengate.png">
+			<h2>‎Golden Gate Bridge</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/corvette.png">
+			<h2>Corvette C6 2005</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/SSS.png">
+			<h2>Angel Beats SSS</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/guitar.png">
+			<h2>Hisako's Electric Guitar</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/violin.png">
+			<h2>Violin</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/M686.png">
+			<h2>Smith & Wesson M686</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/notedge.png">
+			<h2>Samsung Note Edge</h2>
+		</div>
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/wind.png">
+			<h2>Wind Turbines</h2>
+		</div>	
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/room.png">
+			<h2>Room</h2>
+		</div>	
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/headphones.png">
+			<h2>Meze 99 Classics</h2>
+		</div>	
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/pistons.png">
+			<h2>Engine Pistons</h2>
+		</div>	
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/saab.png">
+			<h2>Saab 105</h2>
+		</div>		
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/fan.png">
+			<h2>Ceiling Fan</h2>
+		</div>	
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/650.png">
+			<h2>Kawasaki Ninja 650R</h2>
+		</div>			
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/setup.png">
+			<h2>Home Workstation</h2>
+		</div>				
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/mxmaster2.png">
+			<h2>Logitech MX Master 2</h2>
+		</div>	
+		<div class="each2">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/volvofront.png">
+			<h2>Volvo FH540</h2>
+		</div>	
+		
+	</div>
+
+</div>
+
+<h1 id="helpdesk">HelpDesk</h1>
+
+<div class="sections">
+
+	<div class="separator2">
+	<h4 class="selectorfake">Skills</h4>
+	</div>
+	
+</div>
+
+<div class="container">
+
+	<div class="itemBoxfake design">
+		<div class="each">
+			<img src="./img/ico/windows.png">
+			<h2>Microsoft Windows</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:92%;background-color: #00adef">92%</div>
+			</div>
+			<p>6 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/linux.png">
+			<h2>Linux</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:56%;background-color: #f5bd0c">56%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/android.png">
+			<h2>Android</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:76%;background-color: #a4c639">76%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/ios.png">
+			<h2>Apple IOS</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar black" style="width:27%;background-color: #eeebeb">27%</div>
+			</div>
+			<p>8 Months of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/raspberry.png">
+			<h2>Raspberry Pi</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:64%;background-color: #bc1142">64%</div>
+			</div>
+			<p>2 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/virtualbox.png">
+			<h2>VirtualBox</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:68%;background-color: #1a3a64">68%</div>
+			</div>
+			<p>2 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/office.png">
+			<h2>Microsoft Office</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:85%;background-color: #e05401">85%</div>
+			</div>
+			<p>4 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/open.png">
+			<h2>Open Office</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:83%;background-color: #0e85cd">83%</div>
+			</div>
+			<p>3 Years of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/cisco.png">
+			<h2>Networking</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar" style="width:69%;background-color: #00a5de">69%</div>
+			</div>
+			<p>1 Year of Experience</p>
+		</div>
+		<div class="each">
+			<img src="./img/ico/pc.png">
+			<h2>Hardware</h2>
+			<p>Skill Level:</p>
+			<div class="progress">
+			  <div class="bar black" style="width:93%;background-color: #ffffff">93%</div>
+			</div>
+			<p>3 Years of Experience</p>
+		</div>
+	</div>
+
+</div>
+
+<hr class="greyhr">
+
+<h1 id="contact">Contact</h1>
+
+<div class="contact">
+	<div class="contactflex">
+		<a href="mailto:tovapebusiness@gmail.com">
+		<img src="./img/media/mail.png">
+		<h2>Gmail</h2>
+		<p>tovapebusiness@gmail.com</p>
+		</a>
+	</div>
+	<div class="contactflex">
+		<img src="./img/ico/phone.png">
+		<h2>Phone</h2>
+		<p>+34 605 17 17 85</p>
+	</div>
+</div>
+
+<hr class="greyhr">
+
+<h1 id="resume">Resume</h1>
+
+<div class="resume">
+	<div class="contactflex">
+	<img src="./img/media/cat.png"><br><br>
+	<a target="_blank" href="./archive/cv1.pdf">Descarregar Currículum</a>
+	</div>
+	<div class="contactflex">
+	<img src="./img/media/es.png"><br><br>
+	<a target="_blank" href="./archive/cv2.pdf">Descargar Currículum</a>
+	</div>
+	<div class="contactflex">
+	<img src="./img/media/us.png"><br><br>
+	<a target="_blank" href="./archive/cv3.pdf">Download Resume</a>
+	</div>
+</div>
+
+<div class="footer">
+	<h2>Human Powered By</h2>
+	<div class="powered">
+		<img src="./img/powered/prodigy.png">
+		<img src="./img/powered/hybrid.png">
+		<img src="./img/powered/pendulum.png">
+		<img src="./img/powered/tcm.png">
+		<img src="./img/powered/amontobin.png">
+	</div>
+</div>
+
+<script type="text/javascript">
+
+//Web
+
+$(document).ready(function(){
+	$('.selector').click(function(){
+	const value = $(this).attr('data-filter');
+	if (value == 'all'){
+		$('.itemBox').show('1000');
+	}
+	else {
+		$('.itemBox').not('.'+value).hide('1000');
+		$('.itemBox').filter('.'+value).show('1000');
+	}
+	
+	})
+	
+	$('.separator2').click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	})
+	
+})
+
+//Design
+
+$(document).ready(function(){
+	$('.selector2').click(function(){
+	const value = $(this).attr('data-filter');
+	if (value == 'all'){
+		$('.itemBox2').show('1000');
+	}
+	else {
+		$('.itemBox2').not('.'+value).hide('1000');
+		$('.itemBox2').filter('.'+value).show('1000');
+	}
+	
+	})
+	
+	$('.separator2').click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	})
+	
+})
+
+$(document).ready(function(){
+  $('#startid,#startid').trigger('click');
+});
+
+</script>
+
+</div>
 
 </body>
+
 </html>

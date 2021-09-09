@@ -1,76 +1,34 @@
-function linkedin() {
-  window.open("https://www.linkedin.com/in/tovape");
+// Resposnive Nav
+
+function menudropper() {
+  var menu = document.getElementById("menudropper");
+  if (menu.className === "menutext hoverable") {
+    menu.className += " responsive";
+  } else {
+    menu.className = "menutext hoverable";
+  }
 }
 
-function reddit() {
-  window.open("https://www.reddit.com/user/tovape75");
+// Top Button
+
+var mybutton = document.getElementById("topid");
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
-function youtube() {
-  window.open("https://www.youtube.com/channel/UCZ0WVSWlskwvf6tXZCYjLpQ");
-}
+/*
 
-function steam() {
-  window.open("https://steamcommunity.com/id/tovape75/");
-}
+Translations:
 
-function mail() {
-  window.open("mailto: tovapebusiness@gmail.com");
-}
+Benvinguts a la meva web portafoli!<br>
+M'agrada crear pàgines web, tant com sigui la part visual Frontend com la Backend, sempre hi ha coses per descobrir i explorar.<br>
+També comparteixo el hobby de diseny 3D<br>
+Aqui trobaràs tota la informació que necessitis<br>
 
-function cv1() {
-  window.open("./archive/cv1.pdf");
-}
 
-function cv2() {
-  window.open("./archive/cv2.pdf");
-}
+Programador Web
 
-function cv3() {
-  window.open("./archive/cv3.pdf");
-}
 
-function carbot() {
-  window.open("https://carbot.000webhostapp.com");
-}
-
-function blender() {
-  window.open("./blender.html");
-}
-
-function home() {
-  window.open("./index.html");
-}
-
-var timeoutID;
- 
-function setup() {
-	this.addEventListener("mousemove", resetTimer, false);
-	this.addEventListener("mousedown", resetTimer, false);
-	this.addEventListener("keypress", resetTimer, false);
-	this.addEventListener("DOMMouseScroll", resetTimer, false);
-	this.addEventListener("mousewheel", resetTimer, false);
-	this.addEventListener("touchmove", resetTimer, false);
-	this.addEventListener("MSPointerMove", resetTimer, false);
-	startTimer();
-}
-setup();
- 
-function startTimer() {
-    timeoutID = window.setTimeout(goInactive, 20000);
-}
- 
-function resetTimer(e) {
-    window.clearTimeout(timeoutID);
-    goActive();
-}
- 
-function goInactive() {
-	$("#foo").addClass("inactive");
-}
- 
-function goActive() {
-	$("#foo").removeClass("inactive");
-    startTimer();
-}
-
+*/
