@@ -1,11 +1,11 @@
 // Resposnive Nav
 
 function menudropper() {
-  var menu = document.getElementById("menudropper");
-  if (menu.className === "menutext hoverable") {
-    menu.className += " responsive";
+  var menu = document.getElementById("responsive");
+  if (menu.className === "responsive") {
+    menu.className += " menutext";
   } else {
-    menu.className = "menutext hoverable";
+    menu.className = "responsive";
   }
 }
 

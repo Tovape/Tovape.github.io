@@ -47,16 +47,20 @@ body {
 }
 
 .bluehr{
-	border: 3px solid var(--blue);
+	border: 0px solid var(--blue);
 	padding: 0px;
 	margin: 0px;
+	background: var(--blue);
+	height: 5px;
 }
 
 .greyhr{
-	border: 1px solid var(--grey);
+	border: 0px solid var(--blue);
 	padding: 0px 0px 0px 0px;
 	margin: auto;
 	width: 50%;
+	background: var(--grey);
+	height: 3px;
 }
 
 a{
@@ -70,7 +74,6 @@ Menu Configuration
 */
 
 .scroll{
-	top: 50%;
 	left: 45%;
 	position: absolute;
 	color: white;
@@ -104,7 +107,10 @@ Menu Configuration
 	justify-content: center;
 	background-color: rgba(255,255,255,1);
 	box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
-	backdrop-filter: blur(5px);
+}
+
+.menudropper, .responsive {
+	display: none;
 }
 
 .right{
@@ -532,11 +538,11 @@ div#slider figure {
 }
 
 @keyframes scroll {
-	0% 			{top: 48%;}
-	25% 		{top: 50%;}
-	50%		    {top: 48%;}
-	75%	    	{top: 50%;}
-	100%	    {top: 48%;}
+	0% 			{top: 38%;}
+	25% 		{top: 40%;}
+	50%		    {top: 38%;}
+	75%	    	{top: 40%;}
+	100%	    {top: 38%;}
 }
 
 @keyframes colorRotate {
@@ -563,8 +569,36 @@ Media Configuration
 ----------------------------------
 */
 
+@media only screen and (max-width: 1400px) {
+
+a{
+	font-size: 1rem; 
+}
+
+}
+
 @media only screen and (max-width: 1200px) {
 
+p {
+	font-size: 0.8rem;	
+}
+
+h2{
+	font-size: 1rem;
+}
+
+.progress{
+	border-radius: 20px;
+	background-color: var(--grey);
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+}
+
+.bar{
+	border-radius: 20px;
+	padding: 3px;
+}
 
 .limenu{
 	padding: 5px 30px 5px 30px;
@@ -576,13 +610,74 @@ Media Configuration
 
 }
 
-
 @media only screen and (max-width: 1000px) {
-
-/*hide menu */
 
 .scroll{
 	display:none;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+
+.right{
+	display: none;
+}
+
+.menudropper{
+	display: block;
+	padding-right: 20px;
+}
+
+.menudropper a {
+	transition: all 0.2s ease-in-out;
+	text-decoration: none;
+	color: var(--blue);
+}
+
+.menudropper a:hover {
+	transition: all 0.2s ease-in-out;
+	color: var(--black);
+}
+
+.responsive {
+	display: none;
+	position: absolute;
+	width: 100%;
+	z-index: 3;
+	top: 120px;
+}
+
+.menutext {
+	display: block;
+	background-color: rgba(255,255,255,1);
+	box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+	padding-bottom: 10px;
+}
+
+.limenu{
+	display: block;
+	width: 85%;
+}
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+.itemBox, .itemBox2, .itemBoxfake{
+	display: block;
+	align-items: center; 
+	justify-content: center;
+}
+
+.each, .each2{
+	width: 95%;
+}
+
+.each img{
+	width: 10vw;
+	height: auto;
 }
 
 }
