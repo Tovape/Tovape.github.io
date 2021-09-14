@@ -43,7 +43,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	transition: all 0.2s ease-out;
 	z-index: 1;
-	background-color: var(--black);
 }
 
 .bluehr{
@@ -106,7 +105,6 @@ Menu Configuration
 	align-items: center; 
 	justify-content: center;
 	background-color: rgba(255,255,255,1);
-	box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
 }
 
 .menudropper, .responsive {
@@ -253,6 +251,228 @@ Introduction Configuration
 	cursor: pointer;
 }
 
+/*
+----------------------------------
+Dropdown Configuration
+----------------------------------
+*/
+
+.dropbtn {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	align-text: center;
+	top: 10px;
+	padding: 0px 40px 0px 40px;
+}
+
+.dropdown img {
+	width: 35px;
+	height: 35px;	
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: var(--blue);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 8;
+	right: 0;
+}
+
+.dropdown-content a {
+	color: white;
+	padding: 12px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.lanhover{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	overflow: visible; 
+	z-index: 10;
+}
+
+.lanhover:hover a {
+	color: var(--blue);
+}
+
+.lanhover img {
+	width: 35px;
+	height: 35px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.menudropper i {
+	margin-left: 3%;
+}
+
+/*
+----------------------------------
+Language Img Configuration
+----------------------------------
+*/
+
+.languages{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap:wrap;
+}
+
+.languages .lanhover{
+	padding: 1% 1% 1% 3%;
+	display: flex;
+	justify-content: center;
+}
+
+.en{
+	background-image: url("./img/media/us.png");
+}
+
+.es{
+	background-image: url("./img/media/es.png");
+}
+
+.ca{
+	background-image: url("./img/media/cat.png");
+}
+
+/*
+----------------------------------
+Theme Configuration
+----------------------------------
+*/
+
+.dropswitch{
+	padding: 0px;
+	top: 5px;
+	position: relative;
+	display: inline-block;
+	align-text: center;
+}
+
+.responsive .switchbtn{
+	position: relative;
+	display: inline-block;
+}
+
+.dropswitch img {
+	width: 35px;
+	height: 35px;	
+}
+
+.switchbtn{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	background: none;
+	filter:drop-shadow(0px 0px 10px gray);
+	transition: all 0.2s ease-in-out;
+}
+
+.switchbtn:hover{
+	filter:drop-shadow(0px 0px 0px gray);
+	transition: all 0.2s ease-in-out;
+}
+
+.lightmode{
+	background-color: var(--white);
+}
+
+.lightmode a {
+	color: var(--black);
+}
+
+.lightmode .sections i {
+	filter:invert(100%);
+}
+
+.lightmode p {
+	color: var(--black);
+}
+
+.information p{
+	color: var(--black);
+}
+
+.lightmode .information h1 {
+	color: var(--black);
+}
+
+.lightmode .information h2 {
+	color: var(--black);	
+}
+
+.lightmode .selector, .selector2, .selectorfake{
+	color: var(--grey);
+}
+
+.lightmode .active h4{
+	color: var(--black);
+}
+
+.lightmode .selectorfake {
+	color: var(--black);
+}
+
+.lightmode .each p {
+	color: var(--black);
+}
+
+.lightmode .footer{
+	background-color: var(--black);
+}
+
+.lightmode .footer h2{
+	color: var(--white);
+}
+
+.darkmode{
+	background-color: var(--black);
+}
+
+.darkmode .menu{
+	background-color: var(--black);
+}
+
+.darkmode .menutext {
+	background-color: var(--black);
+}
+
+.darkmode .left h1{
+	color: var(--white);
+}
+
+.darkmode .limenu{
+	color: var(--white);
+}
+
+.darkmode .limenu:hover{
+	box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+}
+
+.darkmode .lanhover a {
+	color: var(--black);
+}
+
+.darkmode .lanhover:hover a {
+	color: var(--white);
+}
 
 /*
 ----------------------------------
@@ -389,7 +609,7 @@ Contact Configuration
 
 .contactflex{
 	padding: 20px;
-	width: 40%;
+	width: 20%;
 }
 
 .contactflex p {
@@ -569,7 +789,7 @@ Media Configuration
 ----------------------------------
 */
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
 
 a{
 	font-size: 1rem; 
@@ -577,7 +797,7 @@ a{
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1350px) {
 
 p {
 	font-size: 0.8rem;	
@@ -610,15 +830,11 @@ h2{
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 
 .scroll{
 	display:none;
 }
-
-}
-
-@media only screen and (max-width: 950px) {
 
 .right{
 	display: none;
@@ -651,7 +867,6 @@ h2{
 .menutext {
 	display: block;
 	background-color: rgba(255,255,255,1);
-	box-shadow: 0px 20px 10px 0px rgba(255,255,255,1);
 	padding-bottom: 20px;
 	overflow: hidden;
 }
@@ -659,6 +874,7 @@ h2{
 .limenu{
 	display: block;
 	width: 85%;
+	margin-bottom: 1%;
 }
 
 .container{
@@ -689,6 +905,10 @@ h2{
 
 .introduction p{
 	width: 80%;
+}
+
+.contactflex{
+	flex: 40%;
 }
 
 }
