@@ -13,6 +13,7 @@
 	<script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript" src="javascript.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.2.0/quicklink.umd.js"></script>
 </head>
 
 <body id="body" class="lightmode">
@@ -391,8 +392,8 @@
 	<h4 id="startid" class="selector2 lang" data-filter="skills" key="skills">	Skills</h4>
 	</div>
 	
-	<div class="separator2">
-	<h4 class="selector2 lang" data-filter="work" key="work"> 					Work</h4>
+	<div class="separator2" onclick="blender" id="blender">
+	<h4 class="selector2 lang" data-filter="work" key="work">	Work</h4>
 	</div>
 	
 </div>
@@ -465,205 +466,205 @@
 		</div>
 	</div>
 	
-	<div class="itemBox2 work">
+	<div id="loader" class="itemBox2 work blender">
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/town.png">
+			<img onerror="this.onerror=null; this.data-src='blender/wip.png'" data-lazy="./blender/town.png">
 			<h2>Modern Building</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/sodas.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/sodas.png">
 			<h2>Black Ops Perk-a-Colas</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/92FS.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/92FS.png">
 			<h2>Beretta 92FS Gun</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/thompson.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/thompson.png">
 			<h2>Thompson Submachine</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/chess.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/chess.png">
 			<h2>Chess</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/mac.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/mac.png">
 			<h2>MAC Submachine</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/ak47.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/ak47.png">
 			<h2>AK47</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/trafficlight.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/trafficlight.png">
 			<h2>Traffic Light</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/pick1.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/pick1.png">
 			<h2>Fortnite Skull Sickle</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/mantle.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/mantle.png">
 			<h2>Fortnite Radiant Mantle</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/hdd.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/hdd.png">
 			<h2>Hard Drive</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/watch.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/watch.png">
 			<h2>Minimalist Wristwatch</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/wand.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/wand.png">
 			<h2>Svtfoe S3 Wand</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/minigun.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/minigun.png">
 			<h2>Minigun</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/sunglasses1.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/sunglasses1.png">
 			<h2>Sunglasses</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/sunglasses2.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/sunglasses2.png">
 			<h2>Aviation Sunglasses</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/casino.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/casino.png">
 			<h2>Casino</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/piano.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/piano.png">
 			<h2>Piano Roland LX706</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/waves.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/waves.png">
 			<h2>Waves</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/dna.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/dna.png">
 			<h2>DNA</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/747.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/747.png">
 			<h2>Airbus 747</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/dominator.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/dominator.png">
 			<h2>Psycho Pass Dominator</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/raygun.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/raygun.png">
 			<h2>Black Ops Raygun</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/laptop.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/laptop.png">
 			<h2>Laptop TerraQue</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/gallardo.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/gallardo.png">
 			<h2>‎Lamborghini Gallardo</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/antonov225.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/antonov225.png">
 			<h2>‎Antonov 225</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/monaro.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/monaro.png">
 			<h2>‎Holden Monaro 2005</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/magnifyinglass.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/magnifyinglass.png">
 			<h2>‎Magnifying Glass</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/torpedo.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/torpedo.png">
 			<h2>Torpedo</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/padlock.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/padlock.png">
 			<h2>Padlock</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/mapfre.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/mapfre.png">
 			<h2>Torre Mapfre Barcelona</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/harts.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/harts.png">
 			<h2>‎Hotel Arts Barcelona</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/goldengate.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/goldengate.png">
 			<h2>‎Golden Gate Bridge</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/corvette.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/corvette.png">
 			<h2>Corvette C6 2005</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/SSS.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/SSS.png">
 			<h2>Angel Beats SSS</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/guitar.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/guitar.png">
 			<h2>Hisako's Electric Guitar</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/violin.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/violin.png">
 			<h2>Violin</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/M686.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/M686.png">
 			<h2>Smith & Wesson M686</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/notedge.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/notedge.png">
 			<h2>Samsung Note Edge</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/wind.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/wind.png">
 			<h2>Wind Turbines</h2>
 		</div>	
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/room.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/room.png">
 			<h2>Room</h2>
 		</div>	
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/headphones.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/headphones.png">
 			<h2>Meze 99 Classics</h2>
 		</div>	
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/pistons.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/pistons.png">
 			<h2>Engine Pistons</h2>
 		</div>	
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/saab.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/saab.png">
 			<h2>Saab 105</h2>
 		</div>		
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/fan.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/fan.png">
 			<h2>Ceiling Fan</h2>
 		</div>	
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/650.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/650.png">
 			<h2>Kawasaki Ninja 650R</h2>
 		</div>			
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/setup.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/setup.png">
 			<h2>Home Workstation</h2>
 		</div>				
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/mxmaster2.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/mxmaster2.png">
 			<h2>Logitech MX Master 2</h2>
 		</div>	
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/volvofront.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/volvofront.png">
 			<h2>Volvo FH540</h2>
 		</div>
 		<div class="each2">
-			<img onerror="this.onerror=null; this.src='blender/wip.png'" src="./blender/booster.png">
+			<img onerror="this.onerror=null; this.src='blender/wip.png'" data-lazy="./blender/booster.png">
 			<h2>Fabbri Group Booster 40/8</h2>
 		</div>	
 		
@@ -671,7 +672,7 @@
 
 </div>
 
-<h1 class="lang" id="helpdesk" key="helpdesk">			HelpDesk</h1>
+<h1 class="lang" id="helpdesk" key="helpdesk">	HelpDesk</h1>
 
 <div class="sections">
 
@@ -898,11 +899,43 @@ if (currentTheme === "darkmode") {
 	switcher.className += " darkmode";
 } else if (currentTheme === "lightmode") {
     switcher.className = "lightmode";
-}
+};
 
 </script>
 
 </div>
+
+<script>
+
+$(document).ready(function(){
+	$('#blender').click(function(){
+
+	const targets = document.querySelectorAll('img');
+	
+	const lazyLoad = target => {
+		const io = new IntersectionObserver((entries, observer) => {
+		console.log(entries)
+
+		entries.forEach(entry => {
+			
+			if (entry.isIntersecting) {
+				const img = entry.target;
+				const src = img.getAttribute('data-lazy');
+				
+				img.setAttribute('src', src);
+				
+				observer.disconnect();
+				}
+			});
+		});
+	io.observe(target);
+	};
+	targets.forEach(lazyLoad);
+})
+
+})
+
+</script>
 
 </body>
 
