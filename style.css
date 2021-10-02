@@ -429,6 +429,14 @@ Theme Configuration
 	color: var(--black);
 }
 
+.lightmode .introduction h2 {
+	color: black;
+}
+
+.lightmode .phone img {
+	filter:invert(100%);
+}
+
 .information p{
 	color: var(--black);
 }
@@ -896,7 +904,7 @@ h2{
 
 .limenu{
 	display: block;
-	width: 85%;
+	width: 55%;
 	margin-bottom: 1%;
 }
 
