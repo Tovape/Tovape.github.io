@@ -325,12 +325,8 @@ Dropdown Configuration
 	z-index: 10;
 }
 
-.lanhover:hover{
-	background-color: var(--black);
-}
-
 .lanhover:hover a {
-	color: var(--blue);
+	color: var(--white);
 }
 
 .lanhover img {
