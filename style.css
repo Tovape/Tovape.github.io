@@ -118,16 +118,21 @@ Menu Configuration
 	width: 100%;
 	display: flex;
 	top: 0px;
-	position: relative;
-	height: 120px;
+	position: fixed;
+	height: 60px;
 	z-index:4;
 	align-items: center; 
 	justify-content: center;
 	background-color: rgba(255,255,255,1);
+	border-top: 3px solid var(--blue);
 }
 
 .menudropper, .responsive {
 	display: none;
+}
+
+.paddingtop{
+	margin-top: 1%;
 }
 
 .right{
@@ -161,9 +166,17 @@ Menu Configuration
 }
 
 .container{
-	overflow: hidden;
-	position: relative;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	flex-direction: column;
 	width: 100%;
+	margin-top: 60px;
+}
+
+.container img {
+	width: 30%;
+	height: auto;
 }
 
 .container i{
@@ -299,10 +312,11 @@ Dropdown Configuration
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: var(--blue);
+	background-color: var(--white);
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 8;
 	right: 0;
+	transition: all 0.2s ease-in-out;
 }
 
 .dropdown-content a {
@@ -323,6 +337,11 @@ Dropdown Configuration
 	width: auto;
 	overflow: visible; 
 	z-index: 10;
+}
+
+.lanhover:hover{
+	background-color: #CDCDCD;
+	transition: all 0.2s ease-in-out;
 }
 
 .lanhover:hover a {
@@ -469,6 +488,10 @@ Theme Configuration
 	color: var(--white);
 }
 
+.lightmode .resume a{
+	color: var(--black);
+}
+
 .darkmode{
 	background-color: var(--black);
 }
@@ -498,6 +521,10 @@ Theme Configuration
 }
 
 .darkmode .lanhover:hover a {
+	color: var(--white);
+}
+
+.darkmode .container h1 {
 	color: var(--white);
 }
 
@@ -563,20 +590,20 @@ Skill, Project, Links Configuration
 	width: 18%;
 	margin: 2% 1% 2% 1%;
 	padding: 1%;
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 }
 
 .each img {
 	width: auto;
 	height: 120px;
-	border-radius: 20px;
+	border-radius: 5px;
 }
 
 .each2{
 	width: 18%;
 	margin: 2% 1% 2% 1%;
 	padding: 1%;
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 }
 
 .each2 img {
@@ -610,6 +637,11 @@ Skill, Project, Links Configuration
 .projects img {
 	border-radius: 0px;
 	padding-bottom: 10px;
+}
+
+.projects-vertical{
+	flex-direction: column;
+	vertical-align: top;
 }
 
 /*
@@ -732,7 +764,7 @@ Top Button Configuration
 	color: white;
 	cursor: pointer;
 	padding: 15px;
-	border-radius: 50%;
+	border-radius: 50px;
 	transition: background-color 0.2s;
 }
 
@@ -878,17 +910,12 @@ h2{
 	color: var(--blue);
 }
 
-.menudropper a:hover {
-	transition: all 0.2s ease-in-out;
-	color: var(--black);
-}
-
 .responsive {
 	display: none;
 	position: absolute;
 	width: 100%;
 	z-index: 3;
-	top: 120px;
+	top: 50px;
 }
 
 .menutext {
@@ -896,6 +923,7 @@ h2{
 	background-color: rgba(255,255,255,1);
 	padding-bottom: 20px;
 	overflow: hidden;
+	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
 }
 
 .limenu{
@@ -938,4 +966,23 @@ h2{
 	flex: 40%;
 }
 
+.separator{
+	padding: 2% 2% 4% 2%;
+}
+
+}
+
+
+/*
+----------------------------------
+Etc Configuration
+----------------------------------
+*/
+
+.hidden{
+	display: none;
+}
+    
+.shown{
+	display: block;
 }

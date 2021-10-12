@@ -20,8 +20,6 @@
 
 <button onclick="topFunction()" id="topid" class="top"><i class="fa fa-arrow-up"></i></button>
 
-<hr class="bluehr">
-
 <div class="menu" id="home">
 
 	<div class="left">
@@ -55,15 +53,21 @@
 
 	</div>
 	
-	<div class="menudropper" align="right">
+	<div id="bar" class="menudropper" align="right">
 		<a href="javascript:void(0);" onclick="menudropper()">
 		<i class="fa fa-bars fa-3x"></i>
 		</a>
 	</div>
 	
+	<div id="cross" class="menudropper hidden" align="right">
+		<a href="javascript:void(0);" onclick="menudropper()">
+		<i class="fas fa-times fa-3x"></i>
+		</a>
+	</div>
+	
 	<div class="responsive" id="responsive">
 
-	<a class="limenu lang" href="#home" key="home">					Home</a>
+	<a class="limenu lang paddingtop" href="#home" key="home">					Home</a>
 	<a class="limenu lang" href="#introduction" key="introduction">	Introduction</a>
 	<a class="limenu lang" href="#projects" key="projects">			Projects</a>
 	<a class="limenu lang" href="#contact" key="contact">			Contact</a>
@@ -88,22 +92,8 @@
 </div>
 
 <div class="container">
-
-<div id="slider">
-
-<div class="scroll">
-	<i class="fa fa-arrow-down fa-2x rainbow"></i><span class="lang" key="scroll"> Scroll </span><i class="fa fa-arrow-down fa-2x rainbow"></i>
-</div>
-
-	<figure>
-		<img src="./blender/booster.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
-		<img src="./blender/antonov225.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
-		<img src="./blender/wind.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
-		<img src="./blender/goldengate.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
-		<img src="./blender/laptop.png" onerror="this.onerror=null; this.src='img/notfound/404.png'" alt>
-	</figure>	
-</div>
-
+	<img src="img/media/me.png">
+	<h1 class="lang" key="iam">I am Toni Valverde</h1>
 </div>
 
 <div id="introduction" class="introduction">
@@ -121,8 +111,6 @@
 	</div>
 	
 </div>
-
-<img class="pfp" src="./img/media/me.jpg" onerror="this.onerror=null; this.src='./img/notfound/avatar.png'" alt><h2>Toni Valverde</h2>
 				
 	<div class="social" align="center">
 		<a href="https://www.linkedin.com/in/tovape/">
@@ -352,7 +340,7 @@
 	</div>
 	
 	<div class="itemBox projects">
-		<div class="each">
+		<div class="each projects-vertical">
 			<a href="">
 			<img src="./img/projects/alkilapop.png"><br>
 			<img src="./img/projects/alkilapoppreview.png">
@@ -391,7 +379,7 @@
 			<a href="https://top.gg/bot/478201115985444866">
 			<img src="./img/projects/carbot.png"><br>
 			<img src="./img/projects/carbotpreview.png">
-			<h2>Discord Bot Carbot (Verified) (+350 Servers)</h2>
+			<h2>Discord Bot Carbot +350 S</h2>
 			</a>
 		</div>
 	</div>

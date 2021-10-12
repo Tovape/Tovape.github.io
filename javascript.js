@@ -2,12 +2,24 @@
 
 function menudropper() {
   var menu = document.getElementById("responsive");
+  var bar = document.getElementById("bar");
+  var cross = document.getElementById("cross");
+  
   if (menu.className === "responsive") {
-    menu.className += " menutext";
+    
+	menu.className += " menutext";
+	bar.className += " hidden";
+	cross.className += " shown";
+	
   } else {
-    menu.className = "responsive";
-  }
+   
+	bar.className = "menudropper";
+	cross.className = "menudropper hidden";
+	menu.className = "responsive";
+	
+  }	
 }
+
 
 // Top Button
 
@@ -32,7 +44,7 @@ var arrLang = {
 	'contact': 'Contact',
 	
 	'scroll': 'Scroll',
-	
+	'iam': 'I am Toni Valverde',
 	'webdeveloper': 'Web Developer', 
 	'2d3ddesigner': '2D/3D Designer',
 	'helpdesk': 'Helpdesk',
@@ -75,7 +87,7 @@ var arrLang = {
 	'contact': 'Contacto',
 	
 	'scroll': 'Baja',
-	
+	'iam': 'Me llamo Toni Valverde',
 	'webdeveloper': 'Desarollador Web', 
 	'2d3ddesigner': 'Diseñador 2D/3D',
 	'helpdesk': 'Helpdesk',
@@ -116,7 +128,7 @@ var arrLang = {
 	'contact': 'Contacte',
 	
 	'scroll': 'Baixa',
-	
+	'iam': 'Em dic Toni Valverde',
 	'webdeveloper': 'Desenvolupador Web', 
 	'2d3ddesigner': 'Disenyador 2D/3D',
 	'helpdesk': 'Helpdesk',
