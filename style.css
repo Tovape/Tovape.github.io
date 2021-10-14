@@ -235,12 +235,12 @@ I am Configuration
 }
 
 .iam h1{
-	font-size: 7vw;
+	font-size: 5vw;
 	margin: 0px 0px -10px 0px;
 }
 
 .iam p {
-	font-size: 1.4vw;
+	font-size: 1.2vw;
 	color: var(--grey)
 }
 
@@ -249,9 +249,15 @@ I am Configuration
 	height: auto;
 }
 
+.iam .banner{
+	width: 100%;
+	height: auto;
+}
+
 .iam-each{
 	width: 30%;
 	margin: 5% 10% 5% 10%;
+	position: relative;
 }
 
 .social img{
@@ -1011,7 +1017,7 @@ h2{
 	position: absolute;
 	width: 100%;
 	z-index: 3;
-	top: 50px;
+	top: 60px;
 }
 
 .menutext {
@@ -1019,29 +1025,51 @@ h2{
 	background-color: rgba(255,255,255,1);
 	padding-bottom: 20px;
 	overflow: hidden;
-	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);	
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center; 
+	justify-content: center;
 }
 
 .limenu{
 	display: flex;
 	width: 55%;
+	padding-top: 4%;
 }
 
 .container{
 	padding-bottom: 5%;
 }
 
-.limenu::after {
-	height: 0px;
-	margin: 0;
-}
-
-.limenu:hover::after {
-	width: 0%;
-}
-
 .lanhover:hover {
 	background-color: transparent;
+}
+
+.greyhr100{
+	margin-bottom: 4%;
+}
+
+.limenu {
+	display: block;
+	margin-left: 2%;
+}
+
+.iam-each{
+	width: 100%;
+	margin: 3%;
+}
+
+.iam-each-txt{
+	width: 68%;
+	margin: 5% 1% 5% 1%;
+	position: relative;
+}
+
+.iam-each-img{
+	width: 20%;
+	margin: 5%;
+	position: relative;
 }
 
 .iam h1{
@@ -1050,16 +1078,10 @@ h2{
 }
 
 .iam p {
-	font-size: 3vw;
-	color: var(--grey)
-}
-
-.greyhr100{
-	margin-bottom: 4%;
+	font-size: 1.6vw;
 }
 
 }
-
 
 @media only screen and (max-width: 700px) {
 
@@ -1079,14 +1101,13 @@ h1{
 }
 
 .each img{
-	width: 10vw;
+	width: 8vw;
 	height: auto;
 }
 
 .each h2{
 	font-size: 1rem;
 }
-
 
 .introduction p{
 	width: 80%;
@@ -1108,8 +1129,32 @@ h1{
 	padding: 20px;
 }
 
+.iam p {
+	font-size: 1rem;
+	width: 100%;
 }
 
+.iam{
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	flex-direction: column;
+	margin: 3%;
+	margin-top: 60px;
+	width: 94%;
+}
+
+.iam-each-txt{
+	width: 100%;
+	margin-top: 0%;
+}
+
+.iam-each-img{
+	width: 50%;
+	margin: 0%;
+}
+
+}
 
 /*
 ----------------------------------
