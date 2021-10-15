@@ -553,7 +553,7 @@ Theme Configuration
 }
 
 .lightmode .active h4{
-	color: var(--black);
+	color: var(--blue);
 }
 
 .lightmode .selectorfake {
