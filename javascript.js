@@ -189,20 +189,20 @@ var arrLang = {
 							
 	// Right
 
-	'introduction': 'Introducción',
-	'skills': 'Habilidades',
-	'work': 'Trabajo',
-	'contact': 'Contacto',
-	'powered': 'Impulsado Por',
+	'introduction': 'Introducció',
+	'skills': 'Habilitats',
+	'work': 'Treball',
+	'contact': 'Contacte',
+	'powered': 'Impulsat Per',
 	
 	//Content
 	
-	'webdevelopment': 'Desarollo Web',
-	'2d3ddesigner': 'Diseño 2D/3D',
+	'webdevelopment': 'Desenvolupament Web',
+	'2d3ddesigner': 'Disseny 2D/3D',
 	'general': 'General',
 	'helpdesk': 'Helpdesk',
-	'contact-text1': 'Puedes contactarme desde estas opciones',
-	'contact-text2': 'Y puedes descargar mi portafolio desde aquí',
+	'contact-text1': 'Pots contactar desde aquestes opcions',
+	'contact-text2': 'i pots descarregar el meu portafoli desde aquí',
 	
 	// Language
 	
