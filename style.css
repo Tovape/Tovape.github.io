@@ -836,12 +836,16 @@ Selectors Configuration
 	position:relative;
 }
 
-.selector-before::before{
+.selector-before::before {
 	content: "\00a0 \00a0 \00a0 \00a0 \00a0 ";
 	border-top: 1px solid var(--grey);
 	position: absolute;
 	left: -2rem;
 	top: 0.6rem;
+}
+
+.active::before {
+	border-top: 1px solid var(--main);
 }
 
 .hidden{
