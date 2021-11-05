@@ -69,7 +69,7 @@ function toptrigger() {
 
 function topFunction() {
 	var topcontent = document.getElementById("content");
-	topcontent.scrollTop = 10;
+	topcontent.scrollTop = 0;
 }
 
 // Language + Cookies
@@ -109,6 +109,7 @@ var arrLang = {
 	
 	'webdevelopment': 'Web Development',
 	'2d3ddesigner': '2D/3D Designer',
+	'general': 'General',
 	'helpdesk': 'Helpdesk',
 	'contact-text1': 'You can contact me from those options',
 	'contact-text2': 'And also download my resume here',
@@ -153,6 +154,7 @@ var arrLang = {
 	
 	'webdevelopment': 'Desarollo Web',
 	'2d3ddesigner': 'Diseño 2D/3D',
+	'general': 'General',
 	'helpdesk': 'Helpdesk',
 	'contact-text1': 'Puedes contactarme desde estas opciones',
 	'contact-text2': 'Y puedes descargar mi portafolio desde aquí',
@@ -197,6 +199,7 @@ var arrLang = {
 	
 	'webdevelopment': 'Desarollo Web',
 	'2d3ddesigner': 'Diseño 2D/3D',
+	'general': 'General',
 	'helpdesk': 'Helpdesk',
 	'contact-text1': 'Puedes contactarme desde estas opciones',
 	'contact-text2': 'Y puedes descargar mi portafolio desde aquí',

@@ -513,13 +513,14 @@ Work Configuration
 	width: 8em;
 	margin: 2%;
 	padding: 2%;
-	border-radius: 1rem;
+	border-radius: 1rem 0rem 1rem 1rem;
 	background-color: var(--blackop1);
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center; 
+	position:relative;
 }
 
 .container-work-each a {
@@ -529,6 +530,29 @@ Work Configuration
 
 .container-work-each img {
 	width: 50%;
+}
+
+/*
+----------------------------------
+Small Icons Configuration
+----------------------------------
+*/
+
+.container-work-setting{
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	z-index:9;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-work-setting img {
+	position: relative;
+	padding: 0rem 0.2rem;
+	width: 13px;
+	height:auto;
+	padding: 2px 0px;
 }
 
 .work-selector-flex{
