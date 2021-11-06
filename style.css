@@ -3,7 +3,7 @@
 Toni Valverde Frontend
 github.com/Tovape
 HTML / CSS / JS Portafolio Webpage
-Ver 4.0
+Ver 4.1
 /*
 
 /*
@@ -700,7 +700,7 @@ Logo Configuration
 	position: absolute;
 	height: 4rem;
 	width: 4rem;
-	top: 20%;
+	top: 8vw;
 	z-index:2;
 }
 
