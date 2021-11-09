@@ -160,9 +160,9 @@ var arrLang = {
 	
 	// Language
 	
-	'english': 'Anglès',
-	'spanish': 'Espanyol',
-	'catalan': 'Català',
+	'english': 'Inglés',
+	'spanish': 'Español',
+	'catalan': 'Catalán',
 	'language': 'Idioma'
 	
 	},
