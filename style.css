@@ -71,23 +71,6 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: var(--trebuchet);
-	transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	z-index: 1;
-	background-image: url('img/background/wind.png');
-	background-size: cover;
-	animation: body 40s infinite;
-	animation-timing-function: ease-in-out;
-	-webkit-animation-timing-function: ease-in-out;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	-webkit-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-	animation-play-state: running;
 }
 
 button{
@@ -134,52 +117,113 @@ Body Images Animation Configuration
 ----------------------------------
 */
 
+.background-crossfade {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+.backgroundimg {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+	animation: body 40s infinite;
+}
+
+#back1 {
+	background: url('img/background/wind.png') no-repeat center fixed;
+	background-size: auto 100%;
+	background-size: cover;
+}
+
+#back2 {
+	background: url('img/background/goldengate.png') no-repeat center fixed;
+	background-size: auto 100%;
+	background-size: cover;
+}
+
+#back3 {
+	background: url('img/background/guitar.png') no-repeat center fixed;
+	background-size: auto 100%;
+	background-size: cover;
+}
+
+#back4 {
+	background: url('img/background/antonov225.png') no-repeat center fixed;
+	background-size: auto 100%;
+	background-size: cover;
+}
+
+#back5 {
+	background: url('img/background/volvofront.png') no-repeat center fixed;
+	background-size: auto 100%;
+	background-size: cover;
+}
+
 @keyframes body {
-	
-0% {
-	background-image: url('img/background/wind.png');
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-19% {
-	background-image: url('img/background/wind.png');
+@-webkit-keyframes body {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-20% {
-	background-image: url('img/background/goldengate.png'); 
+.background-crossfade div:nth-of-type(1) {
+  animation-delay: 32s;
+  -webkit-animation-delay: 32s;
 }
 
-39% {
-	background-image: url('img/background/goldengate.png'); 
+.background-crossfade div:nth-of-type(2) {
+  animation-delay: 24s;
+  -webkit-animation-delay: 24s;
 }
 
-40% {
-	background-image: url('img/background/guitar.png'); 
+.background-crossfade div:nth-of-type(3) {
+  animation-delay: 16s;
+  -webkit-animation-delay: 16s;
 }
 
-59% {
-	background-image: url('img/background/guitar.png'); 
+.background-crossfade div:nth-of-type(4) {
+  animation-delay: 8s;
+  -webkit-animation-delay: 8s;
 }
 
-60% {
-	background-image: url('img/background/antonov225.png'); 
-}
-
-79% {
-	background-image: url('img/background/antonov225.png'); 
-}
-
-80% {
-	background-image: url('img/background/volvofront.png'); 
-}
-
-99% {
-	background-image: url('img/background/volvofront.png'); 
-}
-
-100% {
-	background-image: url('img/background/wind.png');
-}
-
+.background-crossfade div:nth-of-type(5) {
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
 }
 
 /*
