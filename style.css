@@ -12,6 +12,10 @@ Color Configuration
 ----------------------------------
 */
 
+*{
+	outline: 1px solid red;
+}
+
 :root {
 	
 	/* Color Palette */
@@ -308,6 +312,10 @@ Left Configuration
 	display: none;
 }
 
+.mobile-responsive-each-socials {
+	display: none;
+}
+
 .social {
 	width: 100%;
     display: flex;
@@ -506,6 +514,7 @@ Skills Configuration
 
 .skill-selector-flex{
 	display:flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center; 	
@@ -1045,25 +1054,56 @@ Media Configuration
 	background-color: var(--blackop1);
 }
 
-.left-responsive-each h1,h2 {
-	color: var(--white);
-	padding-left: 2rem;
+.left-responsive{
+    align-items: initial;
+	vertical-align: top;
 }
 
 .left-responsive-each {
-	width: 33%;
+	width: 94%;
+	padding: auto 3%;
 }
 
-.left-responsive-each ul{
-	padding-left: 1rem;
+.mobile-responsive-each-socials {
+	width: 50%;
+	display: block;
+}
+
+.left-responsive-each-social{
+	display: none;
 }
 
 .social {
+	flex-direction: row;
+	margin-left: 0;
+	width: 100%;
+	margin-top: 0.2rem;
+	
 	height: 100%;
-	margin-left: -2rem;
 	align-items: center; 
 	justify-content: center;	
 	flex-wrap: wrap;
+}
+
+.social a {
+	margin: 4px;
+}
+
+.left-responsive-each-row{
+	width: 47%;
+	padding-left: 3%;
+	margin-top: 1rem;
+}
+
+.left-responsive-each-row h1 {
+	color: var(--main);
+	font-size: 1.8rem;
+	line-height: 0;
+}
+
+.left-responsive-each-row h2 {
+	font-size: 0.8rem;
+	color: var(--white);
 }
 
 #closer {
@@ -1100,9 +1140,10 @@ li:after {
 }
 
 .language {
-	padding: 2rem 0rem;
-	margin-left: 1rem;
-	margin-right: 2rem;
+	padding: 0.2rem 0rem;
+	margin-left: auto;
+	margin-right: 0.4rem;
+	
 }
 
 .dropdown-content {
@@ -1163,22 +1204,18 @@ li:after {
 
 @media only screen and (max-width: 610px) {
 
-.left-responsive-each {
-	width: 40%;
-}
-
-.social {
-	flex-direction: column;
-	margin-left: 0;
-}
-
-.left-responsive-each-social {
-    width: 20%;
-}
-
 .right .sub-menu p {	
 	padding: 2vw;
 	margin:0;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+.container-introduction .p-img-float img {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }
 
 }

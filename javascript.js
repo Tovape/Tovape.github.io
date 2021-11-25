@@ -106,7 +106,7 @@ var arrLang = {
 	
 	//Content
 	
-	'webdevelopment': 'Web Development',
+	'webdevelopment': 'Coding Skills',
 	'2d3ddesigner': '2D/3D Designer',
 	'general': 'General',
 	'helpdesk': 'Helpdesk',
@@ -151,7 +151,7 @@ var arrLang = {
 	
 	//Content
 	
-	'webdevelopment': 'Desarollo Web',
+	'webdevelopment': 'Programación',
 	'2d3ddesigner': 'Diseño 2D/3D',
 	'general': 'General',
 	'helpdesk': 'Helpdesk',
@@ -172,7 +172,7 @@ var arrLang = {
 	// Left
 	
 	'freelancer': 'Web/3D Freelancer',
-	'webdeveloper': 'Desenvolupador Web',
+	'webdeveloper': 'Programació',
 	'3dmodeling': 'Modelador 3D',
 	'softhardware': 'Solucions Software/Hardware',
 	
