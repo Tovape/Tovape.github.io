@@ -1104,6 +1104,9 @@ Media Configuration
 
 .left-responsive-each-list {
 	font-size: 0.9rem;
+	height: auto;
+	margin-top: -1rem;
+	padding:0;
 }
 
 #closer {
