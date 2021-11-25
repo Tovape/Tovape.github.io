@@ -12,10 +12,6 @@ Color Configuration
 ----------------------------------
 */
 
-*{
-	outline: 1px solid red;
-}
-
 :root {
 	
 	/* Color Palette */
@@ -1106,6 +1102,10 @@ Media Configuration
 	color: var(--white);
 }
 
+.left-responsive-each-list {
+	font-size: 0.9rem;
+}
+
 #closer {
 	padding-top: 2rem;
 	padding-right: 2rem;
@@ -1142,8 +1142,7 @@ li:after {
 .language {
 	padding: 0.2rem 0rem;
 	margin-left: auto;
-	margin-right: 0.4rem;
-	
+	margin-right: 1rem;
 }
 
 .dropdown-content {
@@ -1216,6 +1215,19 @@ li:after {
 .container-introduction .p-img-float img {
     padding-left: 1rem;
     padding-bottom: 1rem;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+
+.left-responsive-each-row h1 {
+	line-height:0.8;
+	margin-top: -0.5rem;
+}
+
+.left-responsive-each-list{
+	margin-top: -0.6rem;
 }
 
 }
