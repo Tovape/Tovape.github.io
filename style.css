@@ -1030,7 +1030,7 @@ Media Configuration
 }
 
 .content-wrap{
-	height: 74%;
+	height: calc(100% - 20rem);
 	width: 0%;
 	border: none;
 }
@@ -1048,7 +1048,7 @@ Media Configuration
 }
 
 .left-responsive {
-	height: 16%;
+	height: 10rem;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -1124,7 +1124,7 @@ Media Configuration
 
 .right {
 	width: auto;
-	height: 10%;
+	height: 10rem;
 	width: 96%;
     flex-direction: row;
 }
