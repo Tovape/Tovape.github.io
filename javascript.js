@@ -87,10 +87,10 @@ var arrLang = {
 	'introduction-text1': 	`Hi, Welcome to my portafolio webpage!`,
 	'introduction-text2': 	`I like making webpages, whether it is Frontend or Backend, there's always something new to learn and a new skill to improve.`,
 	'introduction-text3': 	`I also love 3d modeling and texture making`,
-	'introduction-text4': 	`I've been interested in computer science from young, the way such complexity worked fascinated me, I still have to discover so much more sincethere are a lot of layers in the world of computer science.`,
+	'introduction-text4': 	`I've been interested in computer science from young, the way such complexity worked fascinated me, I still have to discover so much more since there are a lot of layers in the world of computer science.`,
 	'introduction-text5': 	`I started learning programming in HTML, CSS and Javascript, I found them like the best way to start learning and getting my career in order.`,
 	'introduction-text6': 	`In 2020, during the covid pandemic I started 3D Modeling as a hobbie and it changed my life, I used to procrastinate a lot and Blender changed it, I loved the way progress was made by joining vertices and it remarked my life. I'm currently making websites for small business for free in order to grow my portafolio and gain knowledge.`,
-	'introduction-text7': 	`I like to think life is an athletic track, and we must run on our lane, there might be obstacles through it, or terrain malformations, each step counts.`,
+	'introduction-text7': 	`I like to think life is an athletic track, and we must run on our lane, there might be obstacles through it, or terrain malformations, but each step counts.`,
 	'introduction-text8': 	`❝Jump back and get back a little more ❞`,
 	'introduction-text9':	`--The Qemists`,
 						
