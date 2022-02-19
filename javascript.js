@@ -196,7 +196,7 @@ var arrLang = {
 	
 	//Content
 	
-	'webdevelopment': 'Desenvolupament Web',
+	'webdevelopment': 'Programació',
 	'2d3ddesigner': 'Disseny 2D/3D',
 	'general': 'General',
 	'helpdesk': 'Helpdesk',
