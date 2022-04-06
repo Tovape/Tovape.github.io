@@ -35,6 +35,7 @@ Color Configuration
 	--trebuchet: 'Trebuchet MS';
 }
 
+/*
 ::-moz-selection {
 	background: rgba(0,0,0,0);
 }
@@ -42,6 +43,7 @@ Color Configuration
 ::selection {
 	background: rgba(0,0,0,0);
 }
+*/
 
 /*
 ----------------------------------
@@ -89,9 +91,13 @@ button{
 	cursor: pointer;
 }
 
-a{
+a {
 	color: var(--white);
 	text-decoration: none;
+}
+
+p, h1, h2, h3 {
+	margin: 0 !important;
 }
 
 hr {
@@ -242,7 +248,7 @@ Right Configuration
 
 .right{
 	height: 100%;
-	width: 50%;
+	width: calc(50% - 2rem);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -259,6 +265,7 @@ Right Configuration
 	color: var(--white);
 	padding-bottom:1rem;
 	text-align:left;
+	margin: 0.8rem 0 !important;
 }
 
 .right .sub-menu p:hover{
@@ -285,9 +292,13 @@ Left Configuration
 ----------------------------------
 */
 
+.introduction ul {
+	margin: 0;
+}
+
 .left{
 	height: 100%;
-	width: 50%;
+	width: calc(50% - 2rem);
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end; 
@@ -298,15 +309,13 @@ Left Configuration
 }
 
 .left h1 {
-	line-height: 0.4;
-	font-size: 5rem;
+	font-size: 4rem;
 	font-family: var(--raleway);
 	color: var(--white);
 }
 
 .left h2 {
-	line-height: 0;
-	margin: -0.6rem 0;
+	padding-top: 0.6rem;
 	font-size: 1.3rem;
 	font-family: var(--trebuchet);
 	color: var(--sec);
@@ -316,16 +325,11 @@ Left Configuration
 	display: none;
 }
 
-.mobile-responsive-each-socials {
-	display: none;
-}
-
 .social {
 	width: 100%;
     display: flex;
 	align-items: right; 
 	justify-content: right;
-	margin-top: -1rem;
 }
 
 .social img{
@@ -438,6 +442,7 @@ Content Configuration
 	width: auto;
 	color: var(--sec);
 	text-align:center;
+	padding: 0.8rem 0;
 }
 
 .container-title{
@@ -452,7 +457,7 @@ Content Configuration
 	width: auto;
 	color: var(--main);
 	text-align:center;
-	padding: 0rem 1rem 0rem 2rem;
+	padding: 1rem 1rem 1rem 2rem;
 }
 
 .container-title hr {
@@ -532,7 +537,7 @@ Skills Configuration
 	width: auto;
 	text-align:center;
 	font-size: 1rem;
-	padding: 0rem 2rem;
+	padding: 0.6rem 2rem;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 }
@@ -642,7 +647,7 @@ Small Icons Configuration
 	width: auto;
 	text-align:center;
 	font-size: 1rem;
-	padding: 0rem 2rem;
+	padding: 0.6rem 2rem;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 }
@@ -700,6 +705,7 @@ Contact Configuration
 	color: var(--sec);
 	width: 80%;
 	text-align: center;
+	padding: 0.6rem 0;
 }
 
 .contact-flex-row{
@@ -823,7 +829,6 @@ LanguageConfiguration
 	display: block;
 }
 
-
 /*
 ----------------------------------
 Open/Close Configuration
@@ -918,6 +923,7 @@ Selectors Configuration
 }
 
 .show-animation{
+	padding-bottom: 1rem !important;
 	animation: show 1s;	
 	visibility: visible;
 }
@@ -1015,11 +1021,6 @@ Media Configuration
     font-size: 3rem;
 }
 
-.left h2 {
-    line-height: 0;
-    margin: 0rem 0rem -0.8rem 0rem;
-}
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -1030,7 +1031,7 @@ Media Configuration
 }
 
 .content-wrap{
-	height: calc(100% - 20rem);
+	height: calc(100% - 6rem);
 	width: 0%;
 	border: none;
 }
@@ -1043,12 +1044,16 @@ Media Configuration
 	width:100%;
 }
 
+.right {
+	display: none;
+}
+
 .left {
 	display: none;
 }
 
 .left-responsive {
-	height: 10rem;
+	height: 6rem;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -1058,39 +1063,9 @@ Media Configuration
 	background-color: var(--blackop1);
 }
 
-.left-responsive{
-    align-items: initial;
-	vertical-align: top;
-}
-
 .left-responsive-each {
-	width: 94%;
-	padding: 0% 0% 0% 3%;
-}
-
-.mobile-responsive-each-socials {
-	width: 50%;
-	display: block;
-}
-
-.left-responsive-each-social{
-	display: none;
-}
-
-.social {
-	flex-direction: row;
-	margin-left: 0;
-	width: 100%;
-	margin-top: 0.2rem;
-	
-	height: 100%;
-	align-items: center; 
-	justify-content: center;	
-	flex-wrap: wrap;
-}
-
-.social a {
-	margin: 4px;
+	width: auto;
+	padding: 0;
 }
 
 .left-responsive-each-row{
@@ -1117,23 +1092,34 @@ Media Configuration
 	padding:0;
 }
 
+.social {
+	display: none;
+}
+
 #closer {
 	padding-top: 2rem;
 	padding-right: 2rem;
 }
 
-.right {
-	width: auto;
-	height: 10rem;
-	width: 96%;
-    flex-direction: row;
+.submenu-padding{
+	padding-top: 0rem;
 }
 
 .sub-menu {
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding-top: 1rem;
+	padding: 0 1rem;
+}
+
+.left-responsive-each h1 {
+	color: var(--main);
+	font-family: var(--raleway);
+}
+
+.left-responsive-each h2 {
+	color: var(--grey);
+	font-family: var(--raleway);	
 }
 
 li:after {
@@ -1143,6 +1129,11 @@ li:after {
 .selector {
 	padding: 2vw;
 	width: auto;
+}
+
+.selector:hover {
+	transition: all 0.2s ease-in-out;
+	color: var(--main);
 }
 
 .selector-before::before {

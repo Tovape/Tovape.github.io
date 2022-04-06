@@ -93,8 +93,6 @@ var arrLang = {
 	'introduction-text7': 	`I like to think life is an athletic track, and we must run on our lane, there might be obstacles through it, or terrain malformations, but each step counts.`,
 	'introduction-text8': 	`❝Jump back and get back a little more ❞`,
 	'introduction-text9':	`--The Qemists`,
-						
-							
 	
 	// Right
 
