@@ -242,6 +242,49 @@ Body Images Animation Configuration
 
 /*
 ----------------------------------
+Responsive Menu Configuration
+----------------------------------
+*/
+
+.left-responsive-dropmenu {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	position: absolute;
+	top: 6rem;
+	color: var(--white);
+	background-color: var(--black);
+	border-bottom: var(--blackop2);
+	z-index: 99;
+}
+
+#bar {
+	display: none;
+}
+
+#cross {
+	
+}
+
+.cover {
+	display: none;
+}
+
+.coverhack {
+	display: none !important;	
+}
+
+.shown{
+	display: block;
+}
+
+.flex{
+	display: flex;
+}
+
+/*
+----------------------------------
 Right Configuration
 ----------------------------------
 */
@@ -537,7 +580,7 @@ Skills Configuration
 	width: auto;
 	text-align:center;
 	font-size: 1rem;
-	padding: 0.6rem 2rem;
+	padding: 1rem 2rem;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 }
@@ -647,7 +690,7 @@ Small Icons Configuration
 	width: auto;
 	text-align:center;
 	font-size: 1rem;
-	padding: 0.6rem 2rem;
+	padding: 1rem 2rem;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 }
@@ -1023,7 +1066,7 @@ Media Configuration
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 
 .content-flex{
 	flex-direction: column;
@@ -1065,31 +1108,17 @@ Media Configuration
 
 .left-responsive-each {
 	width: auto;
-	padding: 0;
+	padding: 0 1rem;
 }
 
-.left-responsive-each-row{
-	width: 47%;
-	padding-left: 3%;
-	margin-top: 1rem;
-}
-
-.left-responsive-each-row h1 {
+.left-responsive-each h1 {
 	color: var(--main);
-	font-size: 1.8rem;
-	line-height: 0;
+	font-family: var(--raleway);
 }
 
-.left-responsive-each-row h2 {
-	font-size: 0.8rem;
-	color: var(--white);
-}
-
-.left-responsive-each-list {
-	font-size: 0.9rem;
-	height: auto;
-	margin-top: -1rem;
-	padding:0;
+.left-responsive-each h2 {
+	color: var(--grey);
+	font-family: var(--raleway);	
 }
 
 .social {
@@ -1109,17 +1138,6 @@ Media Configuration
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	padding: 0 1rem;
-}
-
-.left-responsive-each h1 {
-	color: var(--main);
-	font-family: var(--raleway);
-}
-
-.left-responsive-each h2 {
-	color: var(--grey);
-	font-family: var(--raleway);	
 }
 
 li:after {
@@ -1194,11 +1212,27 @@ li:after {
 
 }
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 650px) {
+
+.left-responsive-each{
+	padding: 0 2rem;
+}
 
 .left-responsive-each h1,h2 {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	padding-right: 1rem;
+}
+
+.left-responsive{
+	justify-content: space-between;
+}
+
+.left-responsive-menu{
+	display: none;
+}
+
+#bar {
+	display: block;
 }
 
 }
@@ -1221,7 +1255,7 @@ li:after {
 
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 370px) {
 
 .left-responsive-each-row h1 {
 	line-height:0.8;

@@ -35,7 +35,7 @@
 			<h2 class="lang" key="freelancer">Web/3D Freelancer</h2>
 		</div>
 		
-		<div class="left-responsive-each">
+		<div class="left-responsive-each left-responsive-menu">
 			<div class="sub-menu" id="submenu">
 				<p class="selector lang selector-before" data-filter="introduction" key="introduction">Introduction</p>
 				<p class="selector lang selector-before" data-filter="skills" key="skills">Skills</p>
@@ -44,22 +44,27 @@
 				<p class="selector lang selector-before" data-filter="poweredby" key="powered">Powered By</p>
 			</div>
 		</div>
-		<div class="left-responsive-each">
-			<div class="social">
-				<a class="linkedin" href="https://www.linkedin.com/in/tovape/">
-					<img data-lazy="img/media/linkedin.png">
-				</a>
-				<a class="youtube" href="https://www.youtube.com/channel/UCZ0WVSWlskwvf6tXZCYjLpQ">
-					<img data-lazy="img/media/youtube.png">
-				</a>
-				<a class="reddit" href="https://www.reddit.com/user/Tovape01">
-					<img data-lazy="img/media/reddit.png">
-				</a>
-				<a class="github" href="https://github.com/Tovape">
-					<img data-lazy="img/media/github.png">
-				</a>
-			</div>
+		
+		<div id="bar" class="left-responsive-each">
+			<a href="javascript:void(0);" onclick="menudropper()">
+			<i class="fa fa-bars fa-3x" style="color:#f2cd66"></i>
+			</a>
 		</div>
+		
+		<div id="cross" class="left-responsive-each cover">
+			<a href="javascript:void(0);" onclick="menudropper()">
+			<i class="fas fa-times fa-3x" style="color:#f2cd66"></i>
+			</a>
+		</div>
+		
+		<div class="left-responsive-dropmenu" id="menu">
+			<p class="selector lang selector-before" data-filter="introduction" key="introduction">Introduction</p>
+			<p class="selector lang selector-before" data-filter="skills" key="skills">Skills</p>
+			<p class="selector lang selector-before" data-filter="work" key="work">Work</p>
+			<p class="selector lang selector-before" data-filter="contact" key="contact">Contact</p>
+			<p class="selector lang selector-before" data-filter="poweredby" key="powered">Powered By</p>
+		</div>
+		
 	</div>
 	
 	<div class="left" id="left">

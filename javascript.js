@@ -234,3 +234,25 @@ $(function() {
 
   });
 });
+
+// Menu Dropper
+
+function menudropper() {
+  var menu = document.getElementById("menu");
+  var bar = document.getElementById("bar");
+  var cross = document.getElementById("cross");
+  
+  if (menu.className === "left-responsive-dropmenu") {
+    
+	bar.className += " cover coverhack";
+	cross.className += " shown";
+	menu.className += " flex";
+	
+  } else {
+   
+	bar.className = "left-responsive-each";
+	cross.className = "left-responsive-each cover";
+	menu.className = "left-responsive-dropmenu";
+	
+  }	
+}
