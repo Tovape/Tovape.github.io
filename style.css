@@ -125,6 +125,10 @@ li:last-child:after {
   content: '';
 }
 
+.black {
+	color: var(--black) !important;
+}
+
 /*
 ----------------------------------
 Body Images Animation Configuration
@@ -606,6 +610,44 @@ Skills Configuration
 	border-radius: 2rem;
 	padding: 0.1rem;
 	text-align:center;
+}
+
+/* Extra Tech Content */
+
+.container-skills-others {
+	width: calc(100% - 4rem);
+	padding: 2rem;
+	margin: 2rem;
+	border-radius: 1rem;
+	border: 1px solid var(--graphite);
+	box-shadow: 0px 0px 10px 0px var(--blackop1);
+}
+
+.container-skills-others-title {
+	color: var(--white);
+}
+
+.container-skills-others-flex {
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; 	
+}
+
+.container-skills-others-flex-each {
+	width: 10rem;
+	margin: 2%;
+    padding: 2%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 	
+}
+
+.container-skills-others-flex-each img {
+	width: 50%;
 }
 
 /*
