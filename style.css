@@ -256,7 +256,7 @@ Responsive Menu Configuration
 	justify-content: center;
 	width: 100%;
 	position: absolute;
-	top: 6rem;
+	top: 8rem;
 	color: var(--white);
 	background-color: var(--black);
 	border-bottom: var(--blackop2);
@@ -765,6 +765,7 @@ Blender Configuration
 
 .container-work-each-blender p {
 	text-align:center;
+	padding: 1rem 0;
 }
 
 .container-work-each-blender img {
@@ -981,6 +982,7 @@ Selectors Configuration
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
 	position:relative;
+	color: var(--white);
 }
 
 .selector-before::before {
@@ -1116,7 +1118,7 @@ Media Configuration
 }
 
 .content-wrap{
-	height: calc(100% - 6rem);
+	height: calc(100% - 8rem);
 	width: 0%;
 	border: none;
 }
@@ -1138,7 +1140,7 @@ Media Configuration
 }
 
 .left-responsive {
-	height: 6rem;
+	height: 8rem;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -1151,6 +1153,12 @@ Media Configuration
 .left-responsive-each {
 	width: auto;
 	padding: 0 1rem;
+}
+
+.left-responsive-each a svg {
+	width: 50px;
+	height: 50px;
+	fill: var(--white);
 }
 
 .left-responsive-each h1 {

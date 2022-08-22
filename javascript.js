@@ -110,6 +110,7 @@ var arrLang = {
 	'helpdesk': 'Helpdesk',
 	'contact-text1': 'You can contact me from those options',
 	'contact-text2': 'And also download my resume here',
+	'othertech': 'Other Technologies',
 	
 	// Language
 	
@@ -155,6 +156,7 @@ var arrLang = {
 	'helpdesk': 'Helpdesk',
 	'contact-text1': 'Puedes contactarme desde estas opciones',
 	'contact-text2': 'Y puedes descargar mi portafolio desde aquí',
+	'othertech': 'Otras Tecnologías',
 	
 	// Language
 	
@@ -200,6 +202,7 @@ var arrLang = {
 	'helpdesk': 'Helpdesk',
 	'contact-text1': 'Pots contactar desde aquestes opcions',
 	'contact-text2': 'i pots descarregar el meu portafoli desde aquí',
+	'othertech': 'Altres Tecnologies',
 	
 	// Language
 	
