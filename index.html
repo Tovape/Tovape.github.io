@@ -18,7 +18,6 @@
 
 <body>
 
-
 <div class="background-crossfade">
 	<div class="backgroundimg" id="back5"></div>
 	<div class="backgroundimg" id="back4"></div>
@@ -1092,8 +1091,6 @@ $(document).ready(function(){
 	
 	const lazyLoad = target => {
 		const io = new IntersectionObserver((entries, observer) => {
-		console.log(entries)
-
 		entries.forEach(entry => {
 			
 			if (entry.isIntersecting) {
