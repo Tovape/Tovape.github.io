@@ -256,7 +256,7 @@ Responsive Menu Configuration
 	justify-content: center;
 	width: 100%;
 	position: absolute;
-	top: 8rem;
+	top: 5rem;
 	color: var(--white);
 	background-color: var(--black);
 	border-bottom: var(--blackop2);
@@ -1115,10 +1115,11 @@ Media Configuration
 .content-flex{
 	flex-direction: column;
 	overflow:hidden;
+	justify-content: space-between;
 }
 
 .content-wrap{
-	height: calc(100% - 8rem);
+	height: calc(100% - 5rem);
 	width: 0%;
 	border: none;
 }
@@ -1195,7 +1196,7 @@ li:after {
 }
 
 .selector {
-	padding: 2vw;
+	padding: 2rem;
 	width: auto;
 }
 
@@ -1263,6 +1264,10 @@ li:after {
 }
 
 @media only screen and (max-width: 650px) {
+	
+.left-responsive {
+	height: 5rem;
+}
 
 .left-responsive-each{
 	padding: 0 2rem;
