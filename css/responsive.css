@@ -1,9 +1,9 @@
 /* Media Query */
 
-@media (min-width: 1000px) {
+@media (min-height: 600px) {
 
 .introduction-flex {
-	height: 820px;
+	height: 620px;
 }
 
 }
@@ -103,13 +103,13 @@
     flex-direction: column;
 }
 
-#experience .section-content {
+#experience-id .section-content {
 	flex-direction: column;
     justify-content: center;
     gap: 40px;
 }
 
-#experience .section-content > div:nth-child(1) {
+#experience-id .section-content > div:nth-child(1) {
     width: 100%;
 	flex-wrap: wrap;
     flex-direction: row;
@@ -119,24 +119,33 @@
     width: fit-Content;
 }
 
-#experience .section-content > div:nth-child(2) {
+#experience-id .section-content > div:nth-child(2) {
     width: 100%;
 }
 
-#experience .section-content {
+#experience-id .section-content {
 	margin-top: 0;
 }
 
-#contact .section-content {
+#contact-id .section-content {
 	flex-direction: column;
 }
 
-#contact .section-content a {
+#contact-id .section-content a {
     width: calc(100% - 80px);
 }
 
 .portfolio-flex.code .portfolio-each {
     background-size: 100% auto;
+}
+
+.portfolio-each-content > div > div:nth-child(1) {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.portfolio-each-content > div > div:nth-child(2) {
+	flex-direction: column;
 }
 
 }
@@ -161,6 +170,10 @@
 
 .about-section .section-content > div:nth-child(1) svg {
     height: 20px;
+}
+
+h1 {
+    font-size: var(--cusfont);
 }
 
 }

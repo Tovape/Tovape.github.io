@@ -3,6 +3,7 @@ var menures = null;
 var bar = null;
 var cross = null;
 var temp1 = null;
+var portfolio_toggle = 0;
 
 document.addEventListener("DOMContentLoaded", function(event) { 
 	menures = document.getElementById("menu-responsive");
@@ -29,17 +30,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	})
 });
 
-// Menu Items Lietener 
+// Menu Items Listener 
 
 window.onscroll = function(){
 	if(document.getElementById("home").getBoundingClientRect().top <= 0){
         $('.menu-nav-item:nth-child(1)').addClass('active').siblings().removeClass('active');
     }
-    if(document.getElementById("portfolio").getBoundingClientRect().top <= 0){
+    if(document.getElementById("portfolio-id").getBoundingClientRect().top <= 0){
         $('.menu-nav-item:nth-child(2)').addClass('active').siblings().removeClass('active');
     }
-	if(document.getElementById("contact").getBoundingClientRect().top <= 0){
+    if(document.getElementById("skills-id").getBoundingClientRect().top <= 0){
         $('.menu-nav-item:nth-child(3)').addClass('active').siblings().removeClass('active');
+    }
+    if(document.getElementById("experience-id").getBoundingClientRect().top <= 0){
+        $('.menu-nav-item.extra:nth-child(4)').addClass('active').siblings().removeClass('active');
+    }
+	if(document.getElementById("contact-id").getBoundingClientRect().top <= 0){
+        $('.menu-nav-item.extra:nth-child(5)').addClass('active').siblings().removeClass('active');
     }
 }
 
@@ -168,7 +175,42 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	$('#top-button').stop(true, true).fadeOut();
 });
 
-// Portfolio
+// Portfolio Showcase
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+	const targets = document.querySelectorAll('.portfolio-flex.code .portfolio-each ');
+
+	for (let i = 0; i < targets.length; i++) {
+		targets[i].addEventListener("click", function() {
+			for (let j = 0; j < targets.length; j++) {
+				if (portfolio_toggle === 0) {
+					if (j !== i) {
+						setTimeout(function(){
+							targets[j].style.visibility = "none";
+						}, 500);
+						targets[j].classList.add("portfolio-fadeout");
+					} else {
+						targets[j].classList.add("portfolio-showcase");
+					}
+				} else if (portfolio_toggle === 1) {
+					targets[j].style.visibility = "visible";
+					targets[j].classList.remove("portfolio-showcase");
+					setTimeout(function(){
+						targets[j].classList.remove("portfolio-fadeout");
+					}, 300);
+				}
+			}
+			if (portfolio_toggle === 0) {
+				portfolio_toggle = 1;
+				document.getElementById("portfolio-href").click();
+			} else {
+				portfolio_toggle = 0;
+			}
+		});
+	}
+});
+
+// Portfolio Switch
 
 $(document).ready(function(){
 	$('.portfolio-toggle').click(function(){
@@ -191,7 +233,7 @@ $(document).ready(function(){
 	*/
 })
 
-// Skills
+// Skills Switch
 
 $(document).ready(function(){
 	$('.skills-toggle').click(function(){
@@ -207,7 +249,7 @@ $(document).ready(function(){
 	$("#skills-default").click();
 })
 
-// Experience
+// Experience Switch
 
 $(document).ready(function(){
 	$('.experience-toggle').click(function(){
