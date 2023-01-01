@@ -5,11 +5,11 @@ var cross = null;
 var temp1 = null;
 var portfolio_toggle = 0;
 
+// Menu
+
 document.addEventListener("DOMContentLoaded", function(event) { 
 	menures = document.getElementById("menu-responsive");
 });
-
-// Menu
 
 function menudropper() {
 	document.getElementById("nav-icon3").classList.toggle("open");
@@ -178,12 +178,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 // Portfolio Showcase
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-	const targets = document.querySelectorAll('.portfolio-flex.code .portfolio-each ');
+	const targets = document.querySelectorAll('.portfolio-flex.code .portfolio-each');
+	const cross = document.querySelectorAll('.portfolio-flex.code .portfolio-each .closer');
 
 	for (let i = 0; i < targets.length; i++) {
-		targets[i].addEventListener("click", function() {
-			for (let j = 0; j < targets.length; j++) {
-				if (portfolio_toggle === 0) {
+		targets[i].addEventListener("click", function(event) {
+			if (portfolio_toggle === 0) {
+				for (let j = 0; j < targets.length; j++) {
 					if (j !== i) {
 						setTimeout(function(){
 							targets[j].style.visibility = "none";
@@ -192,19 +193,26 @@ document.addEventListener("DOMContentLoaded", function(event) {
 					} else {
 						targets[j].classList.add("portfolio-showcase");
 					}
-				} else if (portfolio_toggle === 1) {
+				}
+				location.href = "#portfolio";
+				setTimeout(function(){
+					location.href = "#portfolio";
+				}, 500);
+				portfolio_toggle = 1;
+			}
+		});
+		cross[i].addEventListener("click", function() {
+			if (portfolio_toggle === 1) {
+				for (let j = 0; j < targets.length; j++) {
 					targets[j].style.visibility = "visible";
 					targets[j].classList.remove("portfolio-showcase");
 					setTimeout(function(){
 						targets[j].classList.remove("portfolio-fadeout");
 					}, 300);
 				}
-			}
-			if (portfolio_toggle === 0) {
-				portfolio_toggle = 1;
-				document.getElementById("portfolio-href").click();
-			} else {
-				portfolio_toggle = 0;
+				setTimeout(() => {
+					portfolio_toggle = 0;
+				}, 400)
 			}
 		});
 	}

@@ -167,3 +167,7 @@
 .dark-theme .portfolio-showcase .portfolio-each-content {
 	background-color: var(--black1);
 }
+
+.dark-theme .closer {
+	filter: invert(1);
+}

@@ -36,6 +36,88 @@ var arrLang = {
 	// Portfolio
 	'portfolio-programming': 'Programming',
 	'portfolio-modeling': '3D Modeling',
+	'portfolio-features': 'Features',
+	'portfolio-tools': 'Tools Used',
+		// Each
+		'portfolio-description-1': 'Interior design website',
+		'portfolio-features-1': `
+		<li>Planning tools in 2D and 3D</li>
+		<li>User Account creation & login</li>
+		<li>Email Verification & encrypted password reset</li>
+		<li>Multiple Design saved in a database</li>
+		<li>Saved List of used Furtniture items in the enviroment</li>
+		<li>Furtniture Catalog with filters and real time prices</li>
+		<li>3D Models automation with Python 3.5.3, three.js-r69 & Blender 2.79b</li>
+		<li>Measurement in Metric and Imperial</li>
+		<li>All translated to spanish, english and catalan</li>
+		`,
+
+		'portfolio-description-2': 'Your personal system monitoring on the web',
+		'portfolio-features-2': `
+		<li>CPU/GPU/RAM/HDD Usage Percentage in Charts</li>
+		<li>Network DNS Checking</li>
+		<li>Static + Dynamic Data</li>
+		<li>System Specifications (Uptime, Cpu, Storage, OS)</li>
+		<li>Network Connection, Router and method of connection</li>
+		<li>Temperature (Work in progress)</li>
+		`,
+		
+		'portfolio-description-3': 'Get information about cars on Discord',
+		'portfolio-features-3': `
+		<li>+600 Server Listing</li>
+		<li>Profanity filter</li>
+		<li>Misinput query correction</li>
+		<li>Manufacturer, Name, Type, Date, Engine and Image</li>
+		<li>Wikipedia, Autoevolution, Supercars, Carmodelslist & Autoexpress Car links</li>
+		`,
+		
+		'portfolio-description-4': 'The Code Lyoko Supercomputer Phone UI',
+		'portfolio-features-4': `
+		<li>Fancy Animations as seen in the series</li>
+		<li>Edge cases improved</li>
+		<li>Battery Indicator</li>
+		<li>Signal Indicator with MB Speed</li>
+		<li>Contact List with functional search bar for ease of use</li>
+		<li>Made it also in the web enviroment</li>
+		`,
+		
+		'portfolio-description-5': 'For C++ Practises',
+		'portfolio-features-5': `
+		<li>Open, Save, New File Tools</li>
+		<li>New Window</li>
+		<li>Search with Bing</li>
+		<li>Replace</li>
+		<li>Insert Date</li>
+		<li>Customize Fonts (Family, Style & Size)</li>
+		<li>Status Bar</li>
+		`,
+		
+		'portfolio-description-6': 'My Third iteration for my personal portfolio',
+		'portfolio-features-6': `
+		<li>Github Static Website</li>
+		<li>Minimalistic & Interesting Design</li>
+		<li>Full responsive</li>
+		`,
+
+		'portfolio-description-7': 'Full Ecommerce',
+		'portfolio-features-7': `
+		<li>Stripe for Payments</li>
+		<li>Email automation for new purchases</li>
+		<li>New user registration</li>
+		`,
+		
+		'portfolio-description-8': 'Car dealership themed website',
+		'portfolio-features-8': `
+		<li>Car Sorting with various parameters</li>
+		<li>Full responsive webpage</li>
+		`,
+		
+		'portfolio-description-9': 'Manage your car assets in a single app',
+		'portfolio-features-9': `
+		<li>Car search with icon and years</li>
+		<li>Login Page linked to MySQL</li>
+		<li>5 Pages, Home, Tasks, Add, Notifications and Settings</li>
+		`,
 	
 	// Skills
 	'skills': 'Skills',
@@ -48,7 +130,7 @@ var arrLang = {
 		'experience-title-1': 'eCommerce & Web Design Assistant',
 		'experience-date-1': 'Sep 2022 - April 2023',
 		'experience-list-1': `
-		<li>Designed and Programmed full webpage using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, Bootstrap, Wordpress and ACF</li>
+		<li>Designed and Programmed full webpage using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, Bootstrap, Wordpress and ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Live Preview</a></li>
 		<li>Optimized Excel Spreadsheets for csv bulk importing</li>
 		<li>Wordpress Maintenance, fix various issues and document them</li>
 		<li>Automation of Images for product listing in Wordpress using Photoshop</li>
@@ -58,7 +140,7 @@ var arrLang = {
 		'experience-title-2': 'Web Design & Web Development',
 		'experience-date-2': 'April - May 2021',
 		'experience-list-2': `
-		<li>Designed and Developed Budget full site for client's requeriments</li>
+		<li>Designed and Developed Budget full site for client's requeriments <a target="_blank" href="https://www.fornarmengol.com/">Live Preview</a></li>
 		<li>Used PHPMailer for mailing resumes and suggestions for the business</li>
 		<li>Tools involved are HTML, CSS, PHP, JS and Mysql</li>
 		<li>Documented all the process in case clients wants to modify something</li>
@@ -68,7 +150,7 @@ var arrLang = {
 		'experience-title-3': 'Artist Themed Multi Page',
 		'experience-date-3': 'Oct 2021 - Dec 2022',
 		'experience-list-3': `
-		<li>PHPMailer for contact and support for the business</li>
+		<li>PHPMailer for contact and support for the business <a target="_blank" href="https://lacasadeasterioncompany.es/">Live Preview</a></li>
 		<li>Proficient listener to client's changes</li>
 		<li>Designed and Programmed full webpage using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, PHP</li>
 		<li>Multiple Redesigns involved</li>
@@ -77,7 +159,7 @@ var arrLang = {
 		'experience-title-4': 'Solar Protection and Home Automation Supplies Business Website',
 		'experience-date-4': 'May - June 2021',
 		'experience-list-4': `
-		<li>Multipage Low Cost webpage with 2 languages</li>
+		<li>Multipage Low Cost webpage with 2 languages <a target="_blank" href="http://decosolsuministros.eu/">Live Preview</a></li>
 		<li>Used HTML, CSS, JS, MySQL & PHP</li>
 		`,
 		
@@ -138,7 +220,89 @@ var arrLang = {
 	// Portfolio
 	'portfolio-programming': 'Programación',
 	'portfolio-modeling': 'Modelado 3D',
-	
+	'portfolio-features': 'Características',
+	'portfolio-tools': 'Herramientas Usadas',
+		// Each
+		'portfolio-description-1': 'Página de diseño interior',
+		'portfolio-features-1': `
+		<li>Herramientas de diseño en 2D y 3D</li>
+		<li>Cuentas de usuario, creación, registro y inicio de sessión</li>
+		<li>Verificación de Correo y restablecer constraseña encriptada desde correo</li>
+		<li>Multiples diseños guardados en la base de datos</li>
+		<li>Lista guardada de los muebles y objetos que se han usado en el espacio de trabajo</li>
+		<li>Catalogo de muebles con filtros y precio a tiempo real (Para API de Ikea)</li>
+		<li>Modelos 3D automatizados con Python 3.5.3, three.js-r69 y Blender 2.79b</li>
+		<li>Medición en Metrico e Imperial</li>
+		<li>Todo traducido al castellano, inglés y catalán.</li>
+		`,
+
+		'portfolio-description-2': 'Su sistema personal de monitoreo en la web',
+		'portfolio-features-2': `
+		<li>Porcentaje de uso de CPU/GPU/RAM/HDD en gráficos</li>
+		<li>Comprobación de DNS de red</li>
+		<li>Datos estáticos + dinámicos</li>
+		<li>Especificaciones del sistema (tiempo de actividad, CPU, almacenamiento, sistema operativo)</li>
+		<li>Conexión de red, enrutador y método de conexión</li>
+		<li>Temperatura (trabajo en curso)</li>
+		`,
+		
+		'portfolio-description-3': 'Obtener información sobre coches en Discord',
+		'portfolio-features-3': `
+		<li>En más de 600 servidores</li>
+		<li>Filtro de palabras mal sonantes</li>
+		<li>Corrección de consulta de entrada incorrecta</li>
+		<li>Fabricante, Nombre, Tipo, Fecha, Motor e Imagen</li>
+		<li>Wikipedia, Autoevolution, Supercars, Carmodelslist y Autoexpress Car enlaces</li>
+		`,
+		
+		'portfolio-description-4': 'La interfaz de usuario del teléfono de la supercomputadora Code Lyoko',
+		'portfolio-features-4': `
+		<li>Animaciones de lujo como se ve en la serie</li>
+		<li>Se mejoraron los casos extremos</li>
+		<li>Indicador de batería</li>
+		<li>Indicador de señal con velocidad MB</li>
+		<li>Lista de contactos con barra de búsqueda funcional para facilitar su uso</li>
+		<li>Hecho también en el entorno web</li>
+		`,
+		
+		'portfolio-description-5': 'Prácticas de C++',
+		'portfolio-features-5': `
+		<li>Abrir, Guardar, Nuevo archivo Herramientas</li>
+		<li>Nueva ventana</li>
+		<li>Buscar con Bing</li>
+		<li>Reemplazar</li>
+		<li>Insertar fecha</li>
+		<li>Personalizar fuentes (familia, estilo y tamaño)</li>
+		<li>Barra de estado</li>
+		`,
+		
+		'portfolio-description-6': 'Mi tercera iteración para mi cartera personal',
+		'portfolio-features-6': `
+		<li>Sitio web estático de Github</li>
+		<li>Diseño minimalista e interesante</li>
+		<li>Totalmente receptivo</li>
+		`,
+
+		'portfolio-description-7': 'Comercio Online',
+		'portfolio-features-7': `
+		<li>Stripe para pagos</li>
+		<li>Automatización de correo electrónico para nuevas compras</li>
+		<li>Registro de nuevo usuario</li>
+		`,
+		
+		'portfolio-description-8': 'Sitio web temático de concesionarios de automóviles',
+		'portfolio-features-8': `
+		<li>Clasificación de coches con varios parámetros</li>
+		<li>Página web totalmente receptiva</li>
+		`,
+		
+		'portfolio-description-9': 'Administre los activos de su automóvil en una sola aplicación',
+		'portfolio-features-9': `
+		<li>Búsqueda de coches con icono y años</li>
+		<li>Página de inicio de sesión vinculada a MySQL</li>
+		<li>5 páginas, inicio, tareas, agregar, notificaciones y configuración</li>
+		`,
+		
 	// Skills
 	'skills': 'Habilidades',
 	'skills-design': 'Diseño',
@@ -150,7 +314,7 @@ var arrLang = {
 		'experience-title-1': 'Asistente de eCommerce y Diseño Web',
 		'experience-date-1': 'Sept 2022 - Abril 2023',
 		'experience-list-1': `
-		<li>Diseño y programación de una web completa usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF</li>
+		<li>Diseño y programación de una web completa usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Visitar Web</a></li>
 		<li>Optimizado hojas de Excel para importe de csv en masa</li>
 		<li>Mantenimiento de Wordpress, arreglando varios problemas y documentandolos</li>
 		<li>Automatización de Imagenes para lista de productos en Wordpress usando Photoshop</li>
@@ -160,7 +324,7 @@ var arrLang = {
 		'experience-title-2': 'Diseño Web & Desarollo',
 		'experience-date-2': 'Abril - Mayo 2021',
 		'experience-list-2': `
-		<li>Diseño y programación para el presupuesto del cliente</li>
+		<li>Diseño y programación para el presupuesto del cliente <a target="_blank" href="https://www.fornarmengol.com/">Ver Web</a></li>
 		<li>Usé PHPMailer para el servicio de correos, incluyendo los curriculums y suggerencias para el negocio</li>
 		<li>Entre las herramientas usadas están HTML, CSS, PHP, JS and Mysql</li>
 		<li>Documentación de todos los procesos en caso de que el cliente quiere modificar algo</li>
@@ -170,7 +334,7 @@ var arrLang = {
 		'experience-title-3': 'Multi Página con temática artistica',
 		'experience-date-3': 'Oct 2021 - Dec 2022',
 		'experience-list-3': `
-		<li>PHPMailer para el contacto y soporte del negocio</li>
+		<li>PHPMailer para el contacto y soporte del negocio <a target="_blank" href="https://lacasadeasterioncompany.es/">Ver Web</a></li>
 		<li>Atento a los cambios de requisitos rutinarios del cliente</li>
 		<li>Diseño y programación de la pàgina completa usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, PHP</li>
 		<li>Multiple rediseños involucrados</li>
@@ -179,7 +343,7 @@ var arrLang = {
 		'experience-title-4': 'Web de suministros de protección solar y automatización del hogar',
 		'experience-date-4': 'Mayo - Junio 2021',
 		'experience-list-4': `
-		<li>Multipagina de bajo presupuesto con dos idiomas</li>
+		<li>Multipagina de bajo presupuesto con dos idiomas <a target="_blank" href="http://decosolsuministros.eu/">Ver Web</a></li>
 		<li>Con HTML, CSS, JS, MySQL & PHP</li>
 		`,
 		
@@ -240,7 +404,89 @@ var arrLang = {
 	// Portfolio
 	'portfolio-programming': 'Programació',
 	'portfolio-modeling': 'Modelatge 3D',
-	
+	'portfolio-features': 'Característiques',
+	'portfolio-tools': 'Eines Utilitzades',
+		// Each
+		'portfolio-description-1': 'Pàgina de dissenyo interior',
+		'portfolio-features-1': `
+		<li>Eines de disseny en 2D i 3D</li>
+		<li>Comptes d'usuari, creació, registre i inici de sessió</li>
+		<li>Verificació de Correu i restabliment de constrasenya encriptada desde correu</li>
+		<li>Tots els dissenys es guarden en la base de dades</li>
+		<li>Llista guardada dels mobles i objectes que s'han utilitzat en el espai de traball</li>
+		<li>Catàlog de mobles amb filtres i preu a temps real (API d'Ikea)</li>
+		<li>Models 3D automatizats amb Python 3.5.3, three.js-r69 i Blender 2.79b</li>
+		<li>Mesurament en Metric i Imperial</li>
+		<li>Tot traduït al castellà, anglès i català.</li>
+		`,
+
+		'portfolio-description-2': 'El seu sistema personal de monitorització a la web',
+		'portfolio-features-2': `
+		<li>Percentatge d'ús de CPU/GPU/RAM/HDD en gràfics</li>
+		<li>Comprovació de DNS de xarxa</li>
+		<li>Dades estàtiques + dinàmices</li>
+		<li>Especificacions del sistema (temps d'activitat, CPU, emmagatzematge, sistema operatiu)</li>
+		<li>Connexió de xarxa, encaminador i mètode de connexió</li>
+		<li>Temperatura (treball en curs)</li>
+		`,
+		
+		'portfolio-description-3': 'Obtenir informació sobre cotxes a Discord',
+		'portfolio-features-3': `
+		<li>En més de 600 servidors</li>
+		<li>Filtre de paraules mal sonants</li>
+		<li>Correcció de consulta d'entrada incorrecta</li>
+		<li>Fabricant, Nom, Tipus, Data, Motor i Imatge</li>
+		<li>Wikipedia, Autoevolution, Supercars, Carmodelslist i Autoexpress Car enllaços</li>
+		`,
+		
+		'portfolio-description-4': "La interfície d'usuari del telèfon de la superordinador Code Lyoko",
+		'portfolio-features-4': `
+		<li>Animacions de luxe com es veu a la sèrie</li>
+		<li>Es van millorar els casos extrems</li>
+		<li>Indicador de bateria</li>
+		<li>Indicador de senyal amb velocitat MB</li>
+		<li>Llista de contactes amb barra de cerca funcional per facilitar-ne l'ús</li>
+		<li>Fet també a l'entorn web</li>
+		`,
+		
+		'portfolio-description-5': 'Pràctiques de C++',
+		'portfolio-features-5': `
+		<li>Obrir, Desa, Nou fitxer Eines</li>
+		<li>Nova finestra</li>
+		<li>Cerca amb Bing</li>
+		<li>Reemplaça</li>
+		<li>Inserir data</li>
+		<li>Personalitzar fonts (família, estil i mida)</li>
+		<li>Barra d'estat</li>
+		`,
+		
+		'portfolio-description-6': 'La meva tercera iteració per a la meva cartera personal',
+		'portfolio-features-6': `
+		<li>Lloc web estàtic de Github</li>
+		<li>Disseny minimalista i interessant</li>
+		<li>Totalment receptiu</li>
+		`,
+
+		'portfolio-description-7': 'Comerci Online',
+		'portfolio-features-7': `
+		<li>Stripe per a pagaments</li>
+		<li>Automatització de correu electrònic per a noves compres</li>
+		<li>Registre de nou usuari</li>
+		`,
+		
+		'portfolio-description-8': "Lloc web temàtic de concessionaris d'automòbils",
+		'portfolio-features-8': `
+		<li>Classificació de cotxes amb diversos paràmetres</li>
+		<li>Pàgina web totalment receptiva</li>
+		`,
+		
+		'portfolio-description-9': 'Administreu els actius del vostre automòbil en una sola aplicació',
+		'portfolio-features-9': `
+		<li>Cerca de cotxes amb icona i anys</li>
+		<li>Pàgina d'inici de sessió vinculada a MySQL</li>
+		<li>5 pàgines, inici, tasques, afegir, notificacions i configuració</li>
+		`,
+
 	// Skills
 	'skills': 'Habilitats',
 	'skills-design': 'Disseny',
@@ -252,7 +498,7 @@ var arrLang = {
 		'experience-title-1': "Asistent d'eCommerce i Disseny Web",
 		'experience-date-1': 'Sept 2022 - Abril 2023',
 		'experience-list-1': `
-		<li>Disseny i programació d'una web completa utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF</li>
+		<li>Disseny i programació d'una web completa utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Veure Web</a></li>
 		<li>Optimizar fulls d'Excel per l'importació de csv en massa</li>
 		<li>Manteniment de Wordpress, arreglant varis problemes i documentant-los</li>
 		<li>Automatització d'imatges per a llista de productes a Wordpress usant Photoshop</li>
@@ -262,7 +508,7 @@ var arrLang = {
 		'experience-title-2': 'Disseny Web & Desenvolupament',
 		'experience-date-2': 'Abril - Maig 2021',
 		'experience-list-2': `
-		<li>Disseny i programació per al pressupost del client</li>
+		<li>Disseny i programació per al pressupost del client <a target="_blank" href="https://www.fornarmengol.com/">Veure Web</a></li>
 		<li>Vaig utilitzar PHPMailer per al servei de correus, incloent els currículums i suggeriments per al negoci</li>
 		<li>Entre les eines usades hi ha HTML, CSS, PHP, JS i Mysql</li>
 		<li>Documentació de tots els processos en cas que el client vol modificar alguna cosa</li>
@@ -272,7 +518,7 @@ var arrLang = {
 		'experience-title-3': 'Multi Pàgina con temática artistica',
 		'experience-date-3': 'Oct 2021 - Dec 2022',
 		'experience-list-3': `
-		<li>PHPMailer per al contacte i suport del negoci</li>
+		<li>PHPMailer per al contacte i suport del negoci <a target="_blank" href="https://lacasadeasterioncompany.es/">Veure Web</a></li>
 		<li>Atempto als canvis de requisits rutinaris del client</li>
 		<li>Disseny i programació de la pàgina completa usant Adobe XD, Adobe Illustrator & Adobe Photoshop per al disseny i HTML, CSS, JS, PHP</li>
 		<li>Multiple redissenys involucrats</li>
@@ -281,7 +527,7 @@ var arrLang = {
 		'experience-title-4': 'Web comercial de subministraments de protecció solar i automatització de la llar',
 		'experience-date-4': 'Maig - Juny 2021',
 		'experience-list-4': `
-		<li>Multipagina de baix pressupost amb dos idiomes</li>
+		<li>Multipagina de baix pressupost amb dos idiomes <a target="_blank" href="http://decosolsuministros.eu/">Veure Web</a></li>
 		<li>Amb HTML, CSS, JS, MySQL & PHP</li>
 		`,
 		

@@ -145,7 +145,7 @@
 }
 
 .portfolio-each-content > div > div:nth-child(2) {
-	flex-direction: column;
+	flex-direction: column !important;
 }
 
 }
