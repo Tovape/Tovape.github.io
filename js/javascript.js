@@ -115,7 +115,7 @@ function themeChange(theme) {
 // Lazy Image Load
 
 document.addEventListener("DOMContentLoaded", function(event) { 
-	const targets = document.querySelectorAll('body img');
+	const targets = document.querySelectorAll('body img:not(.loadlazyignore)');
 	const lazyLoad = target => {
 		const io = new IntersectionObserver((entries, observer) => {
 		entries.forEach(entry => {
