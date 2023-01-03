@@ -32,23 +32,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 // Menu Items Listener 
 
-window.onscroll = function(){
-	if(document.getElementById("home").getBoundingClientRect().top <= 0){
-        $('.menu-nav-item:nth-child(1)').addClass('active').siblings().removeClass('active');
-    }
-    if(document.getElementById("portfolio-id").getBoundingClientRect().top <= 0){
-        $('.menu-nav-item:nth-child(2)').addClass('active').siblings().removeClass('active');
-    }
-    if(document.getElementById("skills-id").getBoundingClientRect().top <= 0){
-        $('.menu-nav-item:nth-child(3)').addClass('active').siblings().removeClass('active');
-    }
-    if(document.getElementById("experience-id").getBoundingClientRect().top <= 0){
-        $('.menu-nav-item.extra:nth-child(4)').addClass('active').siblings().removeClass('active');
-    }
-	if(document.getElementById("contact-id").getBoundingClientRect().top <= 0){
-        $('.menu-nav-item.extra:nth-child(5)').addClass('active').siblings().removeClass('active');
-    }
-}
+document.addEventListener("DOMContentLoaded", function(event) { 
+	window.onscroll = function(){
+		if(document.getElementById("home").getBoundingClientRect().top <= 0){
+			$('.menu-nav-item:nth-child(1)').addClass('active').siblings().removeClass('active');
+		}
+		if(document.getElementById("portfolio-id").getBoundingClientRect().top <= 0){
+			$('.menu-nav-item:nth-child(2)').addClass('active').siblings().removeClass('active');
+		}
+		if(document.getElementById("skills-id").getBoundingClientRect().top <= 0){
+			$('.menu-nav-item:nth-child(3)').addClass('active').siblings().removeClass('active');
+		}
+		if(document.getElementById("experience-id").getBoundingClientRect().top <= 0){
+			$('.menu-nav-item.extra:nth-child(4)').addClass('active').siblings().removeClass('active');
+		}
+		if(document.getElementById("contact-id").getBoundingClientRect().top <= 0){
+			$('.menu-nav-item.extra:nth-child(5)').addClass('active').siblings().removeClass('active');
+		}
+	}
+});
 
 // Theme Toggle Listener
 
