@@ -1,0 +1,229 @@
+:root {
+	
+	/* Colors: */
+	--bg: #16181d;
+	--accent: #5686f5;
+	--accent-sec: #1f283c;
+	--accent-10: #5686f510;
+	--emphasis: #e8e8fd;
+	--text: #98a0b3;
+	
+	/* Typography */
+	--h1: 2.25rem;
+	--h2: 1.5rem;
+	--h3: 1.25rem;
+	--paragraph: 1.125rem;
+	--info-text: 1rem;
+	--text-width-wide: 70ch;
+	--text-width-medium: 60ch;
+	--fw-bold: 700; 
+	--fw-regular: 500;
+	--fw-light: 300;
+	
+	/* Spacing */
+	--spacing-xxs: 0.5em;
+	--spacing-xs: 1em;
+	--spacing-s: 1.5em;
+	--spacing-m: 3em;
+	--spacing-l: 6em;
+	--spacing-xl: 8em;
+	
+	/* Misc */
+	--radius-xs: 0.25em;
+	--radius-s: 0.5em;
+	--center-it: auto;
+	
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap');
+
+body {
+	margin: 100px 0 0 0;
+	padding:0;
+	background-color: var(--bg);
+	font-family: 'Inter', sans-serif;
+	position: relative;
+}
+
+article {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+article > p ~ p {
+	margin-bottom: var(--spacing-s);
+}
+
+h1 {
+	color: var(--emphasis);
+	font-size: var(--h1);
+	font-weight: var(--fw-bold);
+	margin: var(--spacing-xxs) 0;
+}
+
+h2 {
+	color: var(--emphasis);
+	margin: var(--spacing-xxs) 0;
+	font-size: var(--h2);
+	font-weight: var(--fw-bold);
+}
+
+h3 {
+	color: var(--accent);
+	margin: var(--spacing-xxs) 0;
+	font-size: var(--h3);
+	font-weight: var(--fw-bold);
+}
+
+p {
+	font-size: var(--paragraph);
+	color: var(--text);
+	line-height: 32px;
+	letter-spacing: 0.25px;
+	margin: 0;
+}
+
+a {
+	color: rgb(85,26,139);
+}
+
+em {
+	color: var(--emphasis);
+}
+
+cite {
+	font-weight: var(--fw-light);
+	color: var(--emphasis);
+	font-style: italic;
+}
+
+img {
+	width: 100%;
+	max-width: 400px;
+	max-height: 400px;
+	object-fit: contain;
+	border-radius: var(--radius-xs);
+}
+
+ul {
+	margin: var(--spacing-xs);
+	padding: 0;
+}
+
+li {
+	padding-bottom: var(--spacing-xs);
+	margin-left: var(--spacing-xs);
+	font-size: var(--paragraph);
+	color: var(--emphasis);
+	list-style: square;
+}
+
+.info_block {
+	display: flex;
+	gap: 6px;
+	margin-bottom: var(--spacing-xs);
+}
+
+.info {
+	font-size: var(--info-text);
+	color: var(--text);
+}
+
+.likes,
+.replies,
+.mentions {
+	font-size: var(--info-text);
+	color: var(--accent);
+}
+
+.last_update {
+	display: inline-block;
+	background-color: var(--accent-10);
+	color: var(--accent);
+	font-size: var(--info-text);
+	padding: var(--spacing-xxs) var(--spacing-xs);
+	border-radius: var(--radius-s);
+	margin-bottom: var(--spacing-xs);
+}
+
+.link {
+	color: var(--accent);
+	cursor: pointer;
+}
+
+.highlight {
+	margin: var(--center-it);
+	margin-bottom: var(--spacing-m);
+	background-color: var(--accent-10);
+	max-width: var(--text-width-medium);
+	border-radius: var(--radius-s);
+	padding: var(--spacing-m);
+}
+
+.nav {
+	width: calc(100% - 40px);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.nav > div {
+	padding: 20px;
+	height: 20px;
+}
+
+.nav > div:nth-child(1) {
+	background-color: var(--accent);
+}
+
+.nav > div:nth-child(2) {
+	background-color: var(--accent-sec);
+}
+
+.nav a {
+	color: var(--emphasis) !important;
+    text-decoration: none;
+}
+
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: var(--accent-sec);
+	margin-bottom: var(--spacing-m);
+}
+
+.footer p {
+	padding: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+
+article {
+	width: calc(100% - 40px);
+	padding: 0 20px;
+}
+
+}
+
+@media screen and (max-width: 760px) {
+	
+body {
+	padding-inline: var(--spacing-s);
+}
+
+.info_block {
+	flex-direction: column;
+}
+
+.highlight {
+	padding: var(--spacing-s);
+	max-width: var(--text-width-wide);
+}
+
+}

@@ -182,7 +182,7 @@ var arrLang = {
 	// Footer
 	'footer-other': 'Other',
 	'footer-files': 'Files',
-	'footer-workshop': 'Workshop'
+	'footer-workshop': 'Projects'
 
 	},
 
@@ -366,7 +366,7 @@ var arrLang = {
 	// Footer
 	'footer-other': 'Otros',
 	'footer-files': 'Archivos',
-	'footer-workshop': 'Estudio'
+	'footer-workshop': 'Proyectos'
 	
 	},
 	
@@ -550,7 +550,7 @@ var arrLang = {
 	// Footer
 	'footer-other': 'Altres',
 	'footer-files': 'Arxius',
-	'footer-workshop': 'Estudi'
+	'footer-workshop': 'Projectes'
 	
 	}
 };
