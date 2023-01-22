@@ -89,29 +89,30 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 function themeChange(theme) {
-	if (theme === "dark") {
-		document.getElementById("theme-overlay").classList.remove("theme-overlay-light");
-		document.getElementById("theme-overlay").classList.add("theme-overlay-dark");
-	} else {
-		document.getElementById("theme-overlay").classList.remove("theme-overlay-dark");
-		document.getElementById("theme-overlay").classList.add("theme-overlay-light");
-	}
-	document.getElementById("theme-overlay").classList.add("theme-overlay-animation");
-	document.getElementById("home").classList.add("theme-overlay-body");
-	
 	setTimeout(function(){
 		if (theme === "dark") {
-			document.getElementById("home").classList.add("dark-theme");
+			document.getElementById("theme-overlay").classList.remove("theme-overlay-light");
+			document.getElementById("theme-overlay").classList.add("theme-overlay-dark");
 		} else {
-			document.getElementById("home").classList.remove("dark-theme");
+			document.getElementById("theme-overlay").classList.remove("theme-overlay-dark");
+			document.getElementById("theme-overlay").classList.add("theme-overlay-light");
 		}
-	}, 1000);
-	
-	setTimeout(function(){
-		document.getElementById("theme-overlay").classList.remove("theme-overlay-animation");
-		document.getElementById("home").classList.remove("theme-overlay-body");
-	}, 2000);
-
+		document.getElementById("theme-overlay").classList.add("theme-overlay-animation");
+		document.getElementById("home").classList.add("theme-overlay-body");
+		
+		setTimeout(function(){
+			if (theme === "dark") {
+				document.getElementById("home").classList.add("dark-theme");
+			} else {
+				document.getElementById("home").classList.remove("dark-theme");
+			}
+		}, 1000);
+		
+		setTimeout(function(){
+			document.getElementById("theme-overlay").classList.remove("theme-overlay-animation");
+			document.getElementById("home").classList.remove("theme-overlay-body");
+		}, 2000);
+	}, 300);
 }
 
 // Lazy Image Load

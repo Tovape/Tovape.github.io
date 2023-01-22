@@ -86,6 +86,7 @@ h2 {
 a {
 	display: block;
 	text-decoration: none;
+	text-decoration-color: var(--black1) !important;
 }
 
 p, a, h1, h2, h3 {
