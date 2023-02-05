@@ -632,15 +632,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 .portfolio-flex.model {
+	margin: 1px;
 	padding: 1px;
 }
 
 .portfolio-flex.model .portfolio-each {
 	background-color: var(--black1);
+	outline: 1px solid transparent;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
 }
 
 .portfolio-flex.model .portfolio-each:hover {
 	outline: 1px solid var(--black1);
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
 }
 
 .portfolio-flex.model .portfolio-each img {
@@ -697,6 +703,14 @@ body::-webkit-scrollbar-thumb {
 	opacity: 0;
 	transition: all 0.25s ease-in-out;
 	-webkit-transition: all 0.25s ease-in-out;
+}
+
+.portfolio-each-reddit {
+	background-image: url(../files/images/projects/reddithumbnail.png);	
+}
+
+.portfolio-each-reddit::after {
+	background: linear-gradient(300deg, rgba(255,69,0,0.3) 0%, rgba(34,34,34,0.5) 70%);
 }
 
 .portfolio-each-reflow {

@@ -14,7 +14,7 @@ var arrLang = {
 	'introduction-hello': 'Hello!',
 	'introduction-name': 'My name is Toni Valverde',
 	'introduction-desc': "I'm a Fullstack programmer & 3D Designer.<br>Based in Barcelona, Spain",
-	'introduction-about': 'About Mi',
+	'introduction-about': 'About Me',
 	
 	// About
 	'about-text': `
@@ -118,6 +118,15 @@ var arrLang = {
 		<li>Login Page linked to MySQL</li>
 		<li>5 Pages, Home, Tasks, Add, Notifications and Settings</li>
 		`,
+		
+		'portfolio-description-10': 'A reddit clone',
+		'portfolio-features-10': `
+		<li>Signup & Login with JWT (x-access-token)</li>
+		<li>Post search with filters and pagination</li>
+		<li>Home feed with sorting</li>
+		<li>Submit posts with images</li>
+		<li>Account page with your posts</li>
+		`,
 	
 	// Skills
 	'skills': 'Skills',
@@ -130,7 +139,7 @@ var arrLang = {
 		'experience-title-1': 'eCommerce & Web Design Assistant',
 		'experience-date-1': 'Sep 2022 - April 2023',
 		'experience-list-1': `
-		<li>Designed and Programmed full webpage using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, Bootstrap, Wordpress and ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Live Preview</a></li>
+		<li>Designed and Programmed various webpages using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, Bootstrap, Wordpress and ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Live Preview</a></li>
 		<li>Optimized Excel Spreadsheets for csv bulk importing</li>
 		<li>Wordpress Maintenance, fix various issues and document them</li>
 		<li>Automation of Images for product listing in Wordpress using Photoshop</li>
@@ -303,6 +312,15 @@ var arrLang = {
 		<li>5 páginas, inicio, tareas, agregar, notificaciones y configuración</li>
 		`,
 		
+		'portfolio-description-10': 'Un clon de reddit',
+		'portfolio-features-10': `
+		<li>Registro y Login con JWT (x-access-token)</li>
+		<li>Busqueda de posts con filtros y paginación</li>
+		<li>Exploración de inicio con ordenación</li>
+		<li>Crear publicaciones con imagenes</li>
+		<li>Pagina de cuenta de usuario con tus posts</li>
+		`,
+		
 	// Skills
 	'skills': 'Habilidades',
 	'skills-design': 'Diseño',
@@ -314,7 +332,7 @@ var arrLang = {
 		'experience-title-1': 'Asistente de eCommerce y Diseño Web',
 		'experience-date-1': 'Sept 2022 - Abril 2023',
 		'experience-list-1': `
-		<li>Diseño y programación de una web completa usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Visitar Web</a></li>
+		<li>Diseño y programación de varias webs usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Visitar Web</a></li>
 		<li>Optimizado hojas de Excel para importe de csv en masa</li>
 		<li>Mantenimiento de Wordpress, arreglando varios problemas y documentandolos</li>
 		<li>Automatización de Imagenes para lista de productos en Wordpress usando Photoshop</li>
@@ -486,6 +504,15 @@ var arrLang = {
 		<li>Pàgina d'inici de sessió vinculada a MySQL</li>
 		<li>5 pàgines, inici, tasques, afegir, notificacions i configuració</li>
 		`,
+		
+		'portfolio-description-10': 'Replica de reddit',
+		'portfolio-features-10': `
+		<li>Registre i Login amb JWT (x-access-token)</li>
+		<li>Cerca de posts amb filtres i paginació</li>
+		<li>Exploració d'inici amb ordenació</li>
+		<li>Crear publicacions amb imatges</li>
+		<li>Pagina de compte d'usuari amb els teus posts</li>
+		`,
 
 	// Skills
 	'skills': 'Habilitats',
@@ -498,7 +525,7 @@ var arrLang = {
 		'experience-title-1': "Asistent d'eCommerce i Disseny Web",
 		'experience-date-1': 'Sept 2022 - Abril 2023',
 		'experience-list-1': `
-		<li>Disseny i programació d'una web completa utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Veure Web</a></li>
+		<li>Disseny i programació de pàgines web utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Veure Web</a></li>
 		<li>Optimizar fulls d'Excel per l'importació de csv en massa</li>
 		<li>Manteniment de Wordpress, arreglant varis problemes i documentant-los</li>
 		<li>Automatització d'imatges per a llista de productes a Wordpress usant Photoshop</li>

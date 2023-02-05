@@ -85,6 +85,10 @@
 	border-bottom: 1px solid var(--white1);
 }
 
+.dark-theme .menu-nav-item.active {
+	text-decoration-color: var(--white1) !important;	
+}
+
 .dark-theme #nav-icon3 span {
     background: var(--white1);
 }
