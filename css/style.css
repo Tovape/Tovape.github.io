@@ -57,6 +57,7 @@ html{
 }
 
 body {
+	overflow-x: hidden;
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -421,6 +422,9 @@ body::-webkit-scrollbar-thumb {
 	display: flex;
 	flex-direction: row;
 	gap: 40px;
+	rotate: -4deg;
+    width: 130%;
+    transform: translate(-10px, -10px);
 }
 
 .introduction-separator:after {
