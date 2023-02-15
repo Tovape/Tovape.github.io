@@ -810,7 +810,7 @@ body::-webkit-scrollbar-thumb {
 	width: fit-Content;
 	max-width: 100%;
 	height: auto;
-	max-height: 500px;
+	max-height: 300px;
 }
 
 .portfolio-each-content > div:nth-child(1) {
