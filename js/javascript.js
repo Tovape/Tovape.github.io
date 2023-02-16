@@ -276,6 +276,17 @@ $(document).ready(function(){
 	$("#experience-default").click();
 })
 
+// Image HREF Filler
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+	var images = document.querySelectorAll("img");
+	for (let i = 0; i < images.length; i++) {
+		if (!images[i].getAttribute('alt')) {
+			images[i].setAttribute("alt", "generic")
+		}
+	}
+});
+
 // ASCII
 
 var backtick = "`";
