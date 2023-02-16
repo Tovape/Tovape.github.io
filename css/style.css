@@ -833,12 +833,18 @@ body::-webkit-scrollbar-thumb {
 	height: 30px;
 }
 
+.portfolio-each-content > div:nth-child(1) > div:nth-child(1) a {
+	width: 30px;
+	height: 30px;
+}
+
 .portfolio-each-content > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
 	display: flex;
 	align-items: center;
 	gap: 20px;
     flex-wrap: wrap-reverse;
 	flex-direction: row;
+	justify-content: flex-end;
 } 
 
 .portfolio-each-content > div:nth-child(1) > div:nth-child(1) > div > p:nth-child(1) {

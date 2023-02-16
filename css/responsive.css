@@ -151,7 +151,12 @@
 }
 
 @media (max-width: 500px) {
-		
+
+.container {
+	padding: 0 20px;
+	width: calc(100% - 40px);
+}
+	
 .portfolio-toggle, .experience-toggle, .skills-toggle, .resume-toggle {
 	width: 100%;	
 }
