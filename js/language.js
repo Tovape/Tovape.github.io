@@ -125,7 +125,9 @@ var arrLang = {
 		<li>Post search with filters and pagination</li>
 		<li>Home feed with sorting</li>
 		<li>Submit posts with images</li>
-		<li>Account page with your posts</li>
+		<li>Delete your own posts & comments</li>
+		<li>Account page with your own posts, saved, upvoted and downvoted</li>
+		<li>Comment Threads with voting system</li>
 		`,
 	
 	// Skills
@@ -318,7 +320,9 @@ var arrLang = {
 		<li>Busqueda de posts con filtros y paginación</li>
 		<li>Exploración de inicio con ordenación</li>
 		<li>Crear publicaciones con imagenes</li>
-		<li>Pagina de cuenta de usuario con tus posts</li>
+		<li>Elimina tus propias publicaciones y comentarios</li>
+		<li>Pagina de cuenta de usuario con tus posts, guardados y votados</li>
+		<li>Hilo de comentarios con un sistema de votos</li>
 		`,
 		
 	// Skills
@@ -511,7 +515,9 @@ var arrLang = {
 		<li>Cerca de posts amb filtres i paginació</li>
 		<li>Exploració d'inici amb ordenació</li>
 		<li>Crear publicacions amb imatges</li>
-		<li>Pagina de compte d'usuari amb els teus posts</li>
+		<li>Elimina les teves publicacions i comentaris</li>
+		<li>Pagina de compte d'usuari amb els teus posts, guardats i votats</li>
+		<li>Fil de comentaris amb un sistema de votació</li>
 		`,
 
 	// Skills
