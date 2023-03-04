@@ -60,6 +60,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			document.getElementById("home").classList.add("dark-theme");
 			document.getElementById("theme-toggle").checked = true;
 			document.getElementById("theme-toggle2").checked = true;
+			document.getElementById("waves-background").style.backgroundImage = "url(./files/images/icons/waves-dark.svg)"
+		} else {
+			document.getElementById("waves-background").style.backgroundImage = "url(./files/images/icons/waves-light.svg)"
 		}
 	}
 	
@@ -91,9 +94,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function themeChange(theme) {
 	setTimeout(function(){
 		if (theme === "dark") {
+			document.getElementById("waves-background").style.backgroundImage = "url(./files/images/icons/waves-dark.svg)"
 			document.getElementById("theme-overlay").classList.remove("theme-overlay-light");
 			document.getElementById("theme-overlay").classList.add("theme-overlay-dark");
 		} else {
+			document.getElementById("waves-background").style.backgroundImage = "url(./files/images/icons/waves-light.svg)"
 			document.getElementById("theme-overlay").classList.remove("theme-overlay-dark");
 			document.getElementById("theme-overlay").classList.add("theme-overlay-light");
 		}

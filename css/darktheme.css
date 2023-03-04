@@ -119,11 +119,11 @@
 }
 
 .dark-theme .introduction-separator {
-	background-color: var(--black2);
+	background-color: var(--blue1);
 }
 
 .dark-theme .introduction-separator p:nth-child(odd) {
-    color: var(--black2);
+    color: var(--blue1);
 }
 
 .dark-theme .introduction-separator:before {
