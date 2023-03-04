@@ -268,8 +268,8 @@ var arrLang = {
 		
 		'portfolio-description-4': 'La interfaz de usuario del teléfono de la supercomputadora Code Lyoko',
 		'portfolio-features-4': `
-		<li>Animaciones de lujo como se ve en la serie</li>
-		<li>Se mejoraron los casos extremos</li>
+		<li>Animaciones como se ven en la serie</li>
+		<li>Casos de uso</li>
 		<li>Indicador de batería</li>
 		<li>Indicador de señal con velocidad MB</li>
 		<li>Lista de contactos con barra de búsqueda funcional para facilitar su uso</li>
@@ -291,7 +291,7 @@ var arrLang = {
 		'portfolio-features-6': `
 		<li>Sitio web estático de Github</li>
 		<li>Diseño minimalista e interesante</li>
-		<li>Totalmente receptivo</li>
+		<li>Totalmente responsivo</li>
 		`,
 
 		'portfolio-description-7': 'Comercio Online',
@@ -463,8 +463,8 @@ var arrLang = {
 		
 		'portfolio-description-4': "La interfície d'usuari del telèfon de la superordinador Code Lyoko",
 		'portfolio-features-4': `
-		<li>Animacions de luxe com es veu a la sèrie</li>
-		<li>Es van millorar els casos extrems</li>
+		<li>Animacions com es veuen en la sèrie</li>
+		<li>Casos d'us</li>
 		<li>Indicador de bateria</li>
 		<li>Indicador de senyal amb velocitat MB</li>
 		<li>Llista de contactes amb barra de cerca funcional per facilitar-ne l'ús</li>
@@ -486,7 +486,7 @@ var arrLang = {
 		'portfolio-features-6': `
 		<li>Lloc web estàtic de Github</li>
 		<li>Disseny minimalista i interessant</li>
-		<li>Totalment receptiu</li>
+		<li>Totalment responsiu</li>
 		`,
 
 		'portfolio-description-7': 'Comerci Online',

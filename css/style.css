@@ -713,7 +713,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .portfolio-each-reddit::after {
-	background: linear-gradient(300deg, rgba(255,69,0,0.3) 0%, rgba(34,34,34,0.5) 70%);
+	background: linear-gradient(300deg, rgba(255,69,0,0.3) 0%,  rgba(192,226,234,0.2) 70%);
 }
 
 .portfolio-each-reflow {
@@ -737,7 +737,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .portfolio-each-carbot::after {
-	background: linear-gradient(300deg, rgba(203,184,29,0.3) 0%, rgba(192,226,234,0) 70%);
+	background: linear-gradient(300deg, rgba(203,184,29,0.3) 0%, rgba(192,226,234,0.2) 70%);
 }
 
 .portfolio-each-clphone {
@@ -761,7 +761,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .portfolio-each-portfolio::after {
-	background: linear-gradient(300deg, rgba(242,205,102,0.5) 0%, rgba(192,226,234,0.3) 70%);
+	background: linear-gradient(300deg, rgba(242,205,102,0.5) 0%, rgba(192,226,234,0.2) 70%);
 }
 
 .portfolio-each-espanastore {
@@ -952,11 +952,11 @@ body::-webkit-scrollbar-thumb {
 	font-size:var(--smafont);
 }
 
-.skills-flex div:not(:last-child) p {
+.skills-flex .skills-each.info p {
 	margin-top: 8px !important;
 }
 
-.skills-flex div:last-child {
+.skills-flex .skills-each.info {
 	outline: 1px solid var(--white2);
 	border-radius: 4px;
 	padding: 10px 0;
