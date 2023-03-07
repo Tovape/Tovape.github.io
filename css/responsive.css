@@ -148,6 +148,10 @@
 	flex-direction: column !important;
 }
 
+#theme-blur {
+	display: none;
+}
+
 }
 
 @media (max-width: 500px) {

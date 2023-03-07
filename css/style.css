@@ -5,7 +5,7 @@ github.com/Tovape
 HTML / CSS / JS Portafolio Webpage
 Ver 4.1
 ----------------------------------
-/*
+*/
 
 /* Global Variables */
 
@@ -198,6 +198,17 @@ body::-webkit-scrollbar-thumb {
 	visibility: hidden;
 	top: -122px;
 	left:0;
+}
+
+#theme-blur {
+    width: 50%;
+	height: 100px;
+    border-radius: 100%;
+    top: -70px;
+    left: calc(25%);
+    z-index: -1;
+    background-color: var(--yellow1);
+	position: fixed;
 }
 
 /* Menu Responsive */

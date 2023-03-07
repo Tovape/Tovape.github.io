@@ -118,6 +118,10 @@
 	color: var(--black1);
 }
 
+.dark-theme #theme-blur {
+	background-color: var(--blue1);
+}
+
 .dark-theme .introduction-separator {
 	background-color: var(--blue1);
 }
