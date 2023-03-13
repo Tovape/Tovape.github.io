@@ -180,6 +180,15 @@ var arrLang = {
 		<li>Completed various tasks within the ABAP enviroment</li>
 		<li>Summarised all my learning</li>
 		`,
+		
+		'experience-title-6': 'Wordpress eCommerce',
+		'experience-date-6': 'February - March 2023',
+		'experience-list-6': `
+		<li>Production ready ecommerce for a Jewelry business <a target="_blank" href="http://samokjewelry.com/">Live Preview</a></li>
+		<li>ACF</li>
+		<li>Newsletters</li>
+		<li>Blog Posts</li>
+		`,
 	
 	// Contact
 	'contact': 'Contact',
@@ -336,7 +345,7 @@ var arrLang = {
 		'experience-title-1': 'Asistente de eCommerce y Diseño Web',
 		'experience-date-1': 'Sept 2022 - Abril 2023',
 		'experience-list-1': `
-		<li>Diseño y programación de varias webs usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Web Preview 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Web Preview 2</a></li>
+		<li>Diseño y programación de varias webs usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Ver Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Ver Web 2</a></li>
 		<li>Optimizado hojas de Excel para importe de csv en masa</li>
 		<li>Mantenimiento de Wordpress, arreglando varios problemas y documentandolos</li>
 		<li>Automatización de Imagenes para lista de productos en Wordpress usando Photoshop</li>
@@ -374,6 +383,15 @@ var arrLang = {
 		'experience-list-5': `
 		<li>Terminada varias tareas en el lenguaje de ABAP</li>
 		<li>Aprendizaje anotado</li>
+		`,
+		
+		'experience-title-6': 'Wordpress eCommerce',
+		'experience-date-6': 'Febrero - Marzo 2023',
+		'experience-list-6': `
+		<li>Commercio online para una empresa de joyas <a target="_blank" href="http://samokjewelry.com/">Ver Web</a></li>
+		<li>ACF</li>
+		<li>Newsletters</li>
+		<li>Blog Posts</li>
 		`,
 		
 	// Contact
@@ -531,7 +549,7 @@ var arrLang = {
 		'experience-title-1': "Asistent d'eCommerce i Disseny Web",
 		'experience-date-1': 'Sept 2022 - Abril 2023',
 		'experience-list-1': `
-		<li>Disseny i programació de pàgines web utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Web Preview 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Web Preview 2</a></li>
+		<li>Disseny i programació de pàgines web utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Veure Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Veure Web 2</a></li>
 		<li>Optimizar fulls d'Excel per l'importació de csv en massa</li>
 		<li>Manteniment de Wordpress, arreglant varis problemes i documentant-los</li>
 		<li>Automatització d'imatges per a llista de productes a Wordpress usant Photoshop</li>
@@ -569,6 +587,15 @@ var arrLang = {
 		'experience-list-5': `
 		<li>Acabada diverses tasques en el llenguatge d'ABAP</li>
 		<li>Aprenentatge anotat</li>
+		`,
+		
+		'experience-title-6': 'Wordpress eCommerce',
+		'experience-date-6': 'Febrer - Març 2023',
+		'experience-list-6': `
+		<li>Ecommerce per a una empresa de joies  <a target="_blank" href="http://samokjewelry.com/">Veure Web</a></li>
+		<li>ACF</li>
+		<li>Newsletters</li>
+		<li>Blog Posts</li>
 		`,
 		
 	// Contact
