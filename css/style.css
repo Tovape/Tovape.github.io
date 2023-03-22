@@ -105,18 +105,21 @@ ul {
 
 /* Scrollbar */
 
-body::-webkit-scrollbar {
-	width: 10px;
+::-webkit-scrollbar {
+	display: none;
+    -webkit-appearance: none;
 }
  
-body::-webkit-scrollbar-track {
+/*
+::-webkit-scrollbar-track {
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
  
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 	background-color: var(--black1);
 	border-radius: 0;
 }
+*/
 
 /* Generic */
 
@@ -427,18 +430,17 @@ body::-webkit-scrollbar-thumb {
 
 .introduction-separator {
 	position: relative;
-	overflow: hidden;
     height: 100%;
 	display: flex;
 	flex-direction: row;
 	gap: 40px;
 	rotate: -2deg;
-    width: calc(100% + 100px);
+    width: 100%;
     transform: translate(-10px, -10px);
 }
 
 .introduction-separator:after {
-    right: 60px;
+    right: -40px;
     top: 0;
 	background: linear-gradient(90deg, rgba(242,220,157,0) 0%, rgba(242,220,157,1) 30%);
     content: "";
