@@ -17,10 +17,10 @@ Ver 4.1
 	--white1: #F0F0F0;
 	--white2: #DFDFDF;
 	--gray1: #B7B7B7;
-	--yellow1: #f2cd66;
-	--yellow2: #F2DC9D;
+	--yellow1: #e6f2ff;
+	--yellow2: #ef7e7e;
 	--blue1: #38497C;
-	--blue2: #222A40;
+	--blue2: #DFDFDF;
 	
 	/* Shadow Palette */
 	--shadow1: rgba(0,0,0,0.4);
@@ -183,7 +183,7 @@ ul {
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-	z-index: 999;
+	z-index: 55;
 }
 
 #top-button svg {
@@ -204,6 +204,7 @@ ul {
 }
 
 #theme-blur {
+	display: none;
     width: 50%;
 	height: 100px;
     border-radius: 100%;
@@ -440,9 +441,9 @@ ul {
 }
 
 .introduction-separator:after {
-    right: -40px;
+    right: -20px;
     top: 0;
-	background: linear-gradient(90deg, rgba(242,220,157,0) 0%, rgba(242,220,157,1) 30%);
+	background: linear-gradient(90deg, rgba(242,220,157,0) 0%, var(--yellow2) 80%);
     content: "";
     height: 100%;
 	width: 120px;
@@ -453,7 +454,7 @@ ul {
 .introduction-separator:before {
     left: 0;
     top: 0;
-    background: linear-gradient(90deg, rgba(242,220,157,1) 30%, rgba(242,220,157,0) 100%);
+    background: linear-gradient(90deg, var(--yellow2) 30%, rgba(242,220,157,0) 100%);
     content: "";
     height: 100%;
 	width: 120px;

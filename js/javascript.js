@@ -3,13 +3,47 @@ var menures = null;
 var bar = null;
 var cross = null;
 var temp1 = null;
+var theme_overlay = null;
 var portfolio_toggle = 0;
+var columns = 0;
+var rows = 0;
 
 // Menu
 
 document.addEventListener("DOMContentLoaded", function(event) { 
 	menures = document.getElementById("menu-responsive");
+	
+	/*
+	theme_overlay = document.getElementById("theme-overlay")
+	createGrid();
+	*/
 });
+
+/*
+function createGrid() {
+	theme_overlay.innerHTML = "";
+	
+	const size = document.body.clientWidth > 800 ? 100 : 100;
+		
+	columns = Math.floor(window.innerWidth / size);
+	rows = Math.floor(window.innerHeight / size);
+	
+	theme_overlay.style.setProperty("--columns", columns);
+	theme_overlay.style.setProperty("--rows", rows);
+	
+	createTiles(columns * rows);
+}
+
+function createTiles(quantity) {
+	Array.from(Array(quantity)).map((tile, index) => {
+		theme_overlay.insertAdjacentHTML("afterbegin", `
+			<div></div>		
+		`);
+	});
+}
+
+window.onresize = () => createGrid();
+*/
 
 function menudropper() {
 	document.getElementById("nav-icon3").classList.toggle("open");
@@ -94,11 +128,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function themeChange(theme) {
 	setTimeout(function(){
 		if (theme === "dark") {
-			document.getElementById("waves-background").style.backgroundImage = "url(./files/images/icons/waves-dark.svg)"
 			document.getElementById("theme-overlay").classList.remove("theme-overlay-light");
 			document.getElementById("theme-overlay").classList.add("theme-overlay-dark");
 		} else {
-			document.getElementById("waves-background").style.backgroundImage = "url(./files/images/icons/waves-light.svg)"
 			document.getElementById("theme-overlay").classList.remove("theme-overlay-dark");
 			document.getElementById("theme-overlay").classList.add("theme-overlay-light");
 		}
@@ -107,8 +139,10 @@ function themeChange(theme) {
 		
 		setTimeout(function(){
 			if (theme === "dark") {
+				document.getElementById("waves-background").style.backgroundImage = "url(./files/images/icons/waves-dark.svg)"
 				document.getElementById("home").classList.add("dark-theme");
 			} else {
+				document.getElementById("waves-background").style.backgroundImage = "url(./files/images/icons/waves-light.svg)"
 				document.getElementById("home").classList.remove("dark-theme");
 			}
 		}, 1000);
