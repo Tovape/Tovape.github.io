@@ -162,12 +162,14 @@
 }
 	
 .portfolio-toggle, .experience-toggle, .skills-toggle, .resume-toggle {
-	width: 100%;	
+	width: 50%;	
 }
 
 .portfolio-toggle p, .experience-toggle p, .skills-toggle p, .resume-toggle a {
-	width: calc(100% - 80px);
+	width: calc(100% - 42px);
 	text-align: center;
+	padding: 8px 20px;
+	font-size: var(--smafont);
 }
 
 .about-section .section-content > div:nth-child(1) div {
@@ -179,6 +181,36 @@
 
 .about-section .section-content > div:nth-child(1) svg {
     height: 20px;
+}
+
+#portfolio-id .portfolio-flex {
+    grid-auto-rows: 170px;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+}
+
+#skills-id .skills-flex {
+    grid-auto-rows: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+}
+
+.skills-each {
+	justify-content: space-between;
+}
+
+.skills-flex .skills-each.info p {
+	margin-top: 0px !important;
+	text-align:center;
+	font-size: 8px;
+}
+
+.skills-each img {
+    width: 70px;
+    height: 70px;
+}
+
+#contact-id .section-content a {
+    padding: 20px;
+	width: calc(100% - 40px);
 }
 
 h1 {
