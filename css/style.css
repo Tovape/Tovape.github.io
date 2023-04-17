@@ -722,84 +722,48 @@ ul {
 	-webkit-transition: all 0.25s ease-in-out;
 }
 
-.portfolio-each-reddit {
-	background-image: url(../files/images/projects/reddithumbnail.png);	
+.portfolio-flex.code .portfolio-each::after {
+	background: linear-gradient(300deg, rgba(34,34,34,0.5) 0%, rgba(192,226,234,0.3) 70%);
 }
 
-.portfolio-each-reddit::after {
-	background: linear-gradient(300deg, rgba(255,69,0,0.3) 0%,  rgba(192,226,234,0.2) 70%);
+.portfolio-each-reddit {
+	background-image: url(../files/images/projects/reddithumbnail.png);	
 }
 
 .portfolio-each-reflow {
 	background-image: url(../files/images/projects/reflowthumbnail.png);
 }
 
-.portfolio-each-reflow::after {
-	background: linear-gradient(300deg, rgba(192,226,234,0.5) 0%, rgba(92,109,175,0.3) 100%);
-}
-
 .portfolio-each-nodemonitor {
 	background-image: url(../files/images/projects/nodemonitorthumbnail.png);	
-}
-
-.portfolio-each-nodemonitor::after {
-	background: linear-gradient(300deg, rgba(34,34,34,0.5) 0%, rgba(192,226,234,0.3) 70%);
 }
 
 .portfolio-each-carbot {
 	background-image: url(../files/images/projects/carbothumbnail.png);	
 }
 
-.portfolio-each-carbot::after {
-	background: linear-gradient(300deg, rgba(203,184,29,0.3) 0%, rgba(192,226,234,0.2) 70%);
-}
-
 .portfolio-each-clphone {
 	background-image: url(../files/images/projects/codelyokothumbnail.png);	
-}
-
-.portfolio-each-clphone::after {
-	background: linear-gradient(300deg, rgba(68,106,138,0.5) 0%, rgba(192,226,234,0.3) 70%);
 }
 
 .portfolio-each-notepad {
 	background-image: url(../files/images/projects/notepadthumbnail.png);	
 }
 
-.portfolio-each-notepad::after {
-	background: linear-gradient(300deg, rgba(61,173,196,0.5) 0%, rgba(192,226,234,0.3) 70%);
-}
-
 .portfolio-each-portfolio {
 	background-image: url(../files/images/projects/portfolio.png);	
-}
-
-.portfolio-each-portfolio::after {
-	background: linear-gradient(300deg, rgba(242,205,102,0.5) 0%, rgba(192,226,234,0.2) 70%);
 }
 
 .portfolio-each-espanastore {
 	background-image: url(../files/images/projects/espanastorepreview.png);	
 }
 
-.portfolio-each-espanastore::after {
-	background: linear-gradient(300deg, rgba(88,129,87,0.5) 0%, rgba(192,226,234,0.3) 70%);
-}
-
 .portfolio-each-volkswagen {
 	background-image: url(../files/images/projects/volkswagenthumbnail.png);	
 }
 
-.portfolio-each-volkswagen::after {
-	background: linear-gradient(300deg, rgba(32,88,175,0.5) 0%, rgba(192,226,234,0.3) 70%);
-}
-
 .portfolio-each-carsetup {
 	background-image: url(../files/images/projects/carsetupthumbnail.png);	
-}
-
-.portfolio-each-carsetup::after {
-	background: linear-gradient(300deg, rgba(88,129,87,0.5) 0%, rgba(192,226,234,0.3) 70%);
 }
 
 .portfolio-each-content {

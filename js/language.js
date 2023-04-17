@@ -139,7 +139,7 @@ var arrLang = {
 	'experience': 'Experience',
 		// Each
 		'experience-title-1': 'eCommerce & Web Design Assistant',
-		'experience-date-1': 'Sep 2022 - April 2023',
+		'experience-date-1': 'Sep 2022 - Now',
 		'experience-list-1': `
 		<li>Designed and Programmed various webpages using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, Bootstrap, Wordpress and ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Web Preview 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Web Preview 2</a></li>
 		<li>Optimized Excel Spreadsheets for csv bulk importing</li>
@@ -343,7 +343,7 @@ var arrLang = {
 	'experience': 'Experiencia',
 		// Each
 		'experience-title-1': 'Asistente de eCommerce y Diseño Web',
-		'experience-date-1': 'Sept 2022 - Abril 2023',
+		'experience-date-1': 'Sept 2022 - Ahora',
 		'experience-list-1': `
 		<li>Diseño y programación de varias webs usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Ver Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Ver Web 2</a></li>
 		<li>Optimizado hojas de Excel para importe de csv en masa</li>
@@ -547,7 +547,7 @@ var arrLang = {
 	'experience': 'Experiència',
 		// Each
 		'experience-title-1': "Asistent d'eCommerce i Disseny Web",
-		'experience-date-1': 'Sept 2022 - Abril 2023',
+		'experience-date-1': 'Sept 2022 - Ara',
 		'experience-list-1': `
 		<li>Disseny i programació de pàgines web utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Veure Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Veure Web 2</a></li>
 		<li>Optimizar fulls d'Excel per l'importació de csv en massa</li>
