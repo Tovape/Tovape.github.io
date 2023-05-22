@@ -85,6 +85,7 @@ h2 {
 }
 
 a {
+	color: #4fb6ff; 
 	display: block;
 	text-decoration: none;
 	text-decoration-color: var(--black1) !important;
@@ -927,6 +928,7 @@ ul {
 }
 
 .skills-flex p {
+	text-align: center;
 	font-size:var(--smafont);
 }
 

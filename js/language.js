@@ -28,7 +28,7 @@ var arrLang = {
 	<br><br>
 	I started learning programming in HTML, CSS and Javascript, I found them like the best way to start learning and getting my career in order.
 	<br>
-	In 2020, during the covid pandemic I started 3D Modeling as a hobbie and it changed my life, I used to procrastinate a lot and Blender changed it, I loved the way progress was made by joining vertices and it remarked my life. I'm currently making websites for small business for free in order to grow my portafolio and gain knowledge.
+	In 2020, during the covid pandemic I started 3D Modeling as a hobbie and it changed my life, I used to procrastinate a lot and Blender changed it, I loved the way progress was made by joining vertices and it remarked my life.
 	<br><br>
 	I like to think life is an athletic track, and we must run on our lane, there might be obstacles through it, or terrain malformations but each step counts.
 	`,
@@ -138,10 +138,10 @@ var arrLang = {
 	// Experience
 	'experience': 'Experience',
 		// Each
-		'experience-title-1': 'eCommerce & Web Design Assistant',
+		'experience-title-1': 'eCommerce & Web Design',
 		'experience-date-1': 'Sep 2022 - Now',
 		'experience-list-1': `
-		<li>Designed and Programmed various webpages using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, Bootstrap, Wordpress and ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Web Preview 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Web Preview 2</a></li>
+		<li>Design and Programming of webpages using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, Bootstrap, Wordpress and ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Web Preview 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Web Preview 2</a></li>
 		<li>Optimized Excel Spreadsheets for csv bulk importing</li>
 		<li>Wordpress Maintenance, fix various issues and document them</li>
 		<li>Automation of Images for product listing in Wordpress using Photoshop</li>
@@ -167,7 +167,7 @@ var arrLang = {
 		<li>Multiple Redesigns involved</li>
 		`,
 		
-		'experience-title-4': 'Solar Protection and Home Automation Supplies Business Website',
+		'experience-title-4': 'Solar Protection and Home Automation Website',
 		'experience-date-4': 'May - June 2021',
 		'experience-list-4': `
 		<li>Multipage Low Cost webpage with 2 languages <a target="_blank" href="http://decosolsuministros.eu/">Live Preview</a></li>
@@ -232,7 +232,7 @@ var arrLang = {
 	<br><br>
 	Comencé aprendiendo programación gracias al lenguaje de HTML, CSS y Javascript, fue el mejor camino para empezar a construir una carrera professional.
 	<br>
-	En 2020 durante la pandemia del Covid, empezé a modelar en 3d como hobby y me cambió la vida, Solía procrastinar mucho y Blender lo cambió, me encantó la forma en la que se veía el progreso a través del tiempo, de vértice a vértice, remarcó mi vida. Actualmente estoy creando sitios web para pequeñas empresas de forma gratuita con el fin de ampliar mi portafolio y adquirir conocimientos.
+	En 2020 durante la pandemia del Covid, empezé a modelar en 3d como hobby y me cambió la vida, Solía procrastinar mucho y Blender lo cambió, me encantó la forma en la que se veía el progreso a través del tiempo, de vértice a vértice, remarcó mi vida.
 	<br><br>
 	Me gusta pensar que la vida es una pista de atletismo, y nosotros tenemos que correr en nuestra línea, puede que haya obstaculos o malformaciones en la pista pero cada paso cuenta.
 	`,
@@ -342,7 +342,7 @@ var arrLang = {
 	// Experience
 	'experience': 'Experiencia',
 		// Each
-		'experience-title-1': 'Asistente de eCommerce y Diseño Web',
+		'experience-title-1': 'eCommerce y Diseño Web',
 		'experience-date-1': 'Sept 2022 - Ahora',
 		'experience-list-1': `
 		<li>Diseño y programación de varias webs usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Ver Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Ver Web 2</a></li>
@@ -371,7 +371,7 @@ var arrLang = {
 		<li>Multiple rediseños involucrados</li>
 		`,
 		
-		'experience-title-4': 'Web de suministros de protección solar y automatización del hogar',
+		'experience-title-4': 'Web de suministros solar y automatización de hogar',
 		'experience-date-4': 'Mayo - Junio 2021',
 		'experience-list-4': `
 		<li>Multipagina de bajo presupuesto con dos idiomas <a target="_blank" href="http://decosolsuministros.eu/">Ver Web</a></li>
@@ -436,7 +436,7 @@ var arrLang = {
 	<br><br>
 	Vaig començar aprenent programació gràcies als idiomes HTML, CSS i Javascript, va ser la millor manera d'aprendre i per construir una carrera professional
 	<br>
-	En 2020 durant la pandèmia del Covid, vaig començar a fer models 3d com a hobby i em va canviar la vida, solia procrastinar molt i Blender ho va canviar, m'encantava la forma en la qual és podia veure el progrés a través del temps, de vèrtex en vèrtex, va canviar la meva vida a millor. Actualment estic creant pàgines web per petites empreses de franc amb el fi d'ampliar el meu portafolis i aconseguir més coneixements.
+	En 2020 durant la pandèmia del Covid, vaig començar a fer models 3d com a hobby i em va canviar la vida, solia procrastinar molt i Blender ho va canviar, m'encantava la forma en la qual és podia veure el progrés a través del temps, de vèrtex en vèrtex, va canviar la meva vida a millor.
 	<br><br>
 	M'agrada pensar que la vida es una pista d'atletisme, i nosotres tenim de córrer en la nostra línea, pot ser que hi hagi obstacles o malformacions a la pista però cada pas compte.
 	`,
@@ -546,7 +546,7 @@ var arrLang = {
 	// Experience
 	'experience': 'Experiència',
 		// Each
-		'experience-title-1': "Asistent d'eCommerce i Disseny Web",
+		'experience-title-1': "eCommerce i Disseny Web",
 		'experience-date-1': 'Sept 2022 - Ara',
 		'experience-list-1': `
 		<li>Disseny i programació de pàgines web utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Veure Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Veure Web 2</a></li>
@@ -575,7 +575,7 @@ var arrLang = {
 		<li>Multiple redissenys involucrats</li>
 		`,
 		
-		'experience-title-4': 'Web comercial de subministraments de protecció solar i automatització de la llar',
+		'experience-title-4': 'Web subministres de protecció solar i automatització',
 		'experience-date-4': 'Maig - Juny 2021',
 		'experience-list-4': `
 		<li>Multipagina de baix pressupost amb dos idiomes <a target="_blank" href="http://decosolsuministros.eu/">Veure Web</a></li>
