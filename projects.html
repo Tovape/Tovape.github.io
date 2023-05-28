@@ -16,17 +16,24 @@
 <body id="home">
 
 <div class="nav">
-	<div>
-		<a href="./index.html">Home</a>
+	<div class="res-nav">
+		<div id="nav-icon3" onclick="menudropper()">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
 	</div>
-	<div>
-		<a href="#opelastraextreme">Opel Astra Extreme</a>
-	</div>
-	<div>
-		<a href="#earbudsmmcx">Earbuds MMCX</a>
-	</div>
-	<div>
-		<a href="#aceraspiret180">Acer Aspire T180 Sleeper</a>
+	<div id="menu-drop">
+		<div>
+			<a href="#opelastraextreme">Opel Astra Extreme</a>
+		</div>
+		<div>
+			<a href="#earbudsmmcx">Earbuds MMCX</a>
+		</div>
+		<div>
+			<a href="#aceraspiret180">Acer Aspire T180 Sleeper</a>
+		</div>
 	</div>
 </div>
 
@@ -134,6 +141,15 @@
 		<p>By Toni Valverde, Theme by <a href="https://twitter.com/DuskoStamenic">DuskoStamenic</a></p>
 	</div>
 </article>
+
+<script>
+
+function menudropper() {
+	document.getElementById("nav-icon3").classList.toggle("open");
+	document.getElementById("menu-drop").classList.toggle("menu-responsive-toggle");
+}
+
+</script>
 
 </body>
 
