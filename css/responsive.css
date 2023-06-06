@@ -213,6 +213,10 @@
 	width: calc(100% - 40px);
 }
 
+.skills-flex .skills-each.info {
+	gap: 2px !important;
+}
+
 h1 {
     font-size: var(--cusfont);
 }
