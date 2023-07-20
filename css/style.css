@@ -649,9 +649,9 @@ ul {
 }
 
 .portfolio-flex.code .portfolio-each {
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 0 center;
 }
 
 .portfolio-flex.model {
@@ -732,6 +732,10 @@ ul {
 
 .portfolio-flex.code .portfolio-each::after {
 	background: linear-gradient(300deg, rgba(34,34,34,0.5) 0%, rgba(192,226,234,0.3) 70%);
+}
+
+.portfolio-each-velosuite {
+	background-image: url(../files/images/projects/velosuitethumbnail.jpg);	
 }
 
 .portfolio-each-reddit {
