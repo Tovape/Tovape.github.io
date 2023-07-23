@@ -673,7 +673,12 @@ ul {
 
 .portfolio-flex.model .portfolio-each img {
     width: 100%;
+<<<<<<< Updated upstream
     height: 100%;
+=======
+    height: auto;
+    max-height: 100%;
+>>>>>>> Stashed changes
     object-fit: cover;
 }
 
