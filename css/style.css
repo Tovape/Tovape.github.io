@@ -612,7 +612,7 @@ ul {
 #portfolio-id .portfolio-flex {
 	position: relative;
 	display: grid;
-	grid-auto-rows: 230px; 
+	grid-auto-rows: auto; 
 	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 	gap: 20px;
 	overflow: hidden;
@@ -639,6 +639,8 @@ ul {
 */
 
 .portfolio-each {
+	display: flex;
+    flex-direction: column;
 	position: relative;
 	cursor: pointer;	
 	width: 100%;
@@ -673,12 +675,8 @@ ul {
 
 .portfolio-flex.model .portfolio-each img {
     width: 100%;
-<<<<<<< Updated upstream
-    height: 100%;
-=======
     height: auto;
     max-height: 100%;
->>>>>>> Stashed changes
     object-fit: cover;
 }
 
@@ -691,10 +689,12 @@ ul {
 }
 
 .portfolio-flex.model .portfolio-each > p {
-    color: white;
     padding: 20px;
     bottom: 0;
-    position: absolute;
+    position: relative;
+	color: white;
+    background-color: black;
+    width: calc(100% - 40px);
 }
 
 .portfolio-flex.code .portfolio-each::before {
