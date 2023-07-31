@@ -136,7 +136,7 @@
 }
 
 .portfolio-flex.code .portfolio-each {
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .portfolio-each-content > div > div:nth-child(1) {
