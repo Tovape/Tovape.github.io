@@ -651,6 +651,7 @@ ul {
 .portfolio-flex.code .portfolio-each {
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 220px;
 	background-position: 0 center;
 }
 
