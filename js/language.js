@@ -141,7 +141,7 @@ var arrLang = {
 		'experience-title-1': 'eCommerce & Web Design',
 		'experience-date-1': 'Sep 2022 - Now',
 		'experience-list-1': `
-		<li>Design and Programming of webpages using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, Bootstrap, Wordpress and ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Web Preview 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Web Preview 2</a></li>
+		<li>Design and Programming of webpages using Adobe XD, Adobe Illustrator & Adobe Photoshop for the design and HTML, CSS, JS, PHP, Bootstrap, Wordpress and ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Web Preview 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Web Preview 2</a></li>
 		<li>Optimized Excel Spreadsheets for csv bulk importing</li>
 		<li>Wordpress Maintenance, fix various issues and document them</li>
 		<li>Automation of Images for product listing in Wordpress using Photoshop</li>
@@ -345,7 +345,7 @@ var arrLang = {
 		'experience-title-1': 'eCommerce y Diseño Web',
 		'experience-date-1': 'Sept 2022 - Ahora',
 		'experience-list-1': `
-		<li>Diseño y programación de varias webs usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Ver Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Ver Web 2</a></li>
+		<li>Diseño y programación de varias webs usando Adobe XD, Adobe Illustrator & Adobe Photoshop para el diseño y HTML, CSS, JS, PHP, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Ver Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Ver Web 2</a></li>
 		<li>Optimizado hojas de Excel para importe de csv en masa</li>
 		<li>Mantenimiento de Wordpress, arreglando varios problemas y documentandolos</li>
 		<li>Automatización de Imagenes para lista de productos en Wordpress usando Photoshop</li>
@@ -549,7 +549,7 @@ var arrLang = {
 		'experience-title-1': "eCommerce i Disseny Web",
 		'experience-date-1': 'Sept 2022 - Ara',
 		'experience-list-1': `
-		<li>Disseny i programació de pàgines web utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Veure Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Veure Web 2</a></li>
+		<li>Disseny i programació de pàgines web utilitzant Adobe XD, Adobe Illustrator & Adobe Photoshop pel dissenyo i HTML, CSS, JS, PHP, Bootstrap, Wordpress & ACF <a target="_blank" href="https://www.benavidesnotaria.es/">Veure Web 1</a> - <a target="_blank" href="https://www.universalfreestyletour.es/">Veure Web 2</a></li>
 		<li>Optimizar fulls d'Excel per l'importació de csv en massa</li>
 		<li>Manteniment de Wordpress, arreglant varis problemes i documentant-los</li>
 		<li>Automatització d'imatges per a llista de productes a Wordpress usant Photoshop</li>

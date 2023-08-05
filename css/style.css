@@ -612,7 +612,7 @@ ul {
 #portfolio-id .portfolio-flex {
 	position: relative;
 	display: grid;
-	grid-auto-rows: auto; 
+	grid-auto-rows: 200px; 
 	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 	gap: 20px;
 	overflow: hidden;
@@ -653,7 +653,6 @@ ul {
 .portfolio-flex.code .portfolio-each {
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 220px;
 	background-position: 0 center;
 }
 
