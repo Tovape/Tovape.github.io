@@ -678,7 +678,7 @@ ul {
 .portfolio-flex.model .portfolio-each img {
     width: 100%;
     height: 100%;
-    max-height: calc(100% - 42px);
+    max-height: calc(100% - 35px);
     object-fit: cover;
 }
 
@@ -697,6 +697,8 @@ ul {
 	color: white;
     background-color: black;
     width: calc(100% - 40px);
+	font-size: var(--smafont);
+	height: 15px;
 }
 
 .portfolio-flex.code .portfolio-each::before {
