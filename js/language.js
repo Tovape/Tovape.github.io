@@ -189,6 +189,14 @@ var arrLang = {
 		<li>Newsletters</li>
 		<li>Blog Posts</li>
 		`,
+		
+		'experience-title-7': 'Bets Plataform',
+		'experience-date-7': 'June - November 2023',
+		'experience-list-7': `
+		<li>Custom platform for live sports and betting</li>
+		<li>HTML, CSS, EJS, NodeJS, MongoDB, mongoose</li>
+		<li>User Accounts, API, EJS Components</li>
+		`,
 	
 	// Contact
 	'contact': 'Contact',
@@ -394,6 +402,14 @@ var arrLang = {
 		<li>Blog Posts</li>
 		`,
 		
+		'experience-title-7': 'Plataforma de apuestas',
+		'experience-date-7': 'Junio - Noviembre 2023',
+		'experience-list-7': `
+		<li>Plataforma para deportes en vivo y apuestas</li>
+		<li>HTML, CSS, EJS, NodeJS, MongoDB, mongoose</li>
+		<li>Cuenta de usuario, API, Componentes EJS</li>
+		`,
+		
 	// Contact
 	'contact': 'Contacto',
 	'contact-phone': 'Móvil',
@@ -592,10 +608,18 @@ var arrLang = {
 		'experience-title-6': 'Wordpress eCommerce',
 		'experience-date-6': 'Febrer - Març 2023',
 		'experience-list-6': `
-		<li>Ecommerce per a una empresa de joies  <a target="_blank" href="http://samokjewelry.com/">Veure Web</a></li>
+		<li>Ecommerce per a una empresa de joies <a target="_blank" href="http://samokjewelry.com/">Veure Web</a></li>
 		<li>ACF</li>
 		<li>Newsletters</li>
 		<li>Blog Posts</li>
+		`,
+		
+		'experience-title-7': 'Plataforma d apostes',
+		'experience-date-7': 'Juny - Novembre 2023',
+		'experience-list-7': `
+		<li>Plataforma per esports en viu i apostes</li>
+		<li>HTML, CSS, EJS, NodeJS, MongoDB, mongoose</li>
+		<li>Compte d usuari, API, Components EJS</li>
 		`,
 		
 	// Contact
