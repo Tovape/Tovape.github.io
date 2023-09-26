@@ -1,5 +1,4 @@
-// Language + Cookies
-
+// Language
 var arrLang = {
 	
 	// English
@@ -128,6 +127,11 @@ var arrLang = {
 		<li>Delete your own posts & comments</li>
 		<li>Account page with your own posts, saved, upvoted and downvoted</li>
 		<li>Comment Threads with voting system</li>
+		`,
+		
+		'portfolio-description-11': 'Manager Suite for Tasks',
+		'portfolio-features-11': `
+		<li>Work in progress, check github for progress</li>
 		`,
 	
 	// Skills
@@ -342,6 +346,11 @@ var arrLang = {
 		<li>Hilo de comentarios con un sistema de votos</li>
 		`,
 		
+		'portfolio-description-11': 'Manager Suite for Tasks',
+		'portfolio-features-11': `
+		<li>Work in progress, check github for progress</li>
+		`,
+		
 	// Skills
 	'skills': 'Habilidades',
 	'skills-design': 'Diseño',
@@ -553,6 +562,11 @@ var arrLang = {
 		<li>Pagina de compte d'usuari amb els teus posts, guardats i votats</li>
 		<li>Fil de comentaris amb un sistema de votació</li>
 		`,
+		
+		'portfolio-description-11': 'Manager Suite for Tasks',
+		'portfolio-features-11': `
+		<li>Work in progress, check github for progress</li>
+		`,
 
 	// Skills
 	'skills': 'Habilitats',
@@ -639,9 +653,8 @@ var arrLang = {
 	}
 };
 
-
-$(function() {
-
+// Cookies
+document.addEventListener("DOMContentLoaded", function(event) { 
 	if(!localStorage.getItem("language")){
 		localStorage.setItem("language", "es");
 	}
@@ -663,10 +676,6 @@ $(function() {
 
 	});
 
-});
-
-$(document).ready(function() {
-	
 	const languagebutton = document.querySelectorAll(".footer-language p");
 	var language = localStorage.getItem("language");
 
@@ -677,5 +686,4 @@ $(document).ready(function() {
 	} else if (language == 'en') {
 		languagebutton[2].classList.add('active');
 	}
-
 });
