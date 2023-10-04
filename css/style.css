@@ -3,7 +3,7 @@
 Toni Valverde Frontend
 github.com/Tovape
 HTML / CSS / JS Portafolio Webpage
-Ver 4.1
+Ver 4.2
 ----------------------------------
 */
 
@@ -46,6 +46,7 @@ Ver 4.1
 * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	box-sizing: content-box;
 }
 
 html{
@@ -62,6 +63,10 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: var(--montserrat);
+}
+
+body.locked {
+	overflow: hidden !important;
 }
 
 button{
@@ -92,10 +97,10 @@ a {
 }
 
 p, a, h1, h2, h3 {
-	margin: 0 !important;
+	margin: 0;
 }
 
-a,p,li {
+a, p, li {
 	font-size: var(--medfont);
 }
 
@@ -110,17 +115,6 @@ ul {
 	display: none;
     -webkit-appearance: none;
 }
- 
-/*
-::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
- 
-::-webkit-scrollbar-thumb {
-	background-color: var(--black1);
-	border-radius: 0;
-}
-*/
 
 /* Generic */
 
@@ -214,6 +208,68 @@ ul {
     z-index: -1;
     background-color: var(--yellow1);
 	position: fixed;
+}
+
+/* Image Viewer */
+
+.image-viewer-wrap {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: fixed;
+	display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-viewer-wrap.active {
+	display: flex;
+    z-index: 20;
+}
+
+.image-viewer-wrap.opacity {
+	opacity: 1;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+}
+
+.image-viewer {
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+    height: 60%;
+	min-height: 400px;
+	max-height: 900px;
+	min-width: 300px;
+	max-width: 950px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 3px 6px #00000029;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+}
+
+.image-viewer .close {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #fff;
+    z-index: 6;
+    margin: 10px;
+    opacity: 1;
+}
+
+.image-viewer #image-viewer-src {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
 }
 
 /* Menu Responsive */
@@ -358,7 +414,7 @@ ul {
 
 #menu-overlay {
 	position: fixed;
-	top: 82px;
+	top: 80px;
 	z-index:5;
 	left: 0;
 	opacity: 0;
