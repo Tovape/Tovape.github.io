@@ -247,12 +247,16 @@ ul {
 	color: var(--black1);
 }
 
+.menu-responsive > div:nth-child(1) a:first-child p {
+	padding-top: 30px;
+}
+
 .menu-responsive > div:nth-child(1) a.active p {
 	text-decoration: underline;
 }
 
 .menu-responsive > div:nth-child(2) {
-	padding: 10px 40px 20px 40px;
+	padding: 15px 40px 20px 40px;
 	display: flex;
 	gap: 20px;
 	flex-direction: row-reverse;
