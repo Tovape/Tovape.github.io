@@ -4,6 +4,8 @@ Toni Valverde Frontend
 github.com/Tovape
 HTML / CSS / JS Portafolio Webpage
 Ver 4.2
+
+Chrome | Edge | Opera | Brave | 
 ----------------------------------
 */
 
@@ -111,10 +113,7 @@ ul {
 
 /* Scrollbar */
 
-::-webkit-scrollbar {
-	display: none;
-    -webkit-appearance: none;
-}
+
 
 /* Generic */
 
@@ -675,7 +674,8 @@ ul {
 	grid-auto-rows: auto; 
 	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 	gap: 20px;
-	overflow: hidden;
+	overflow: inherit;
+	height: inherit;
 }
 
 /*
@@ -865,10 +865,11 @@ ul {
 }
 
 .portfolio-each-content .portfolio-each-gallery img {
-	width: fit-Content;
+	width: auto;
 	max-width: 100%;
 	height: auto;
 	max-height: 300px;
+	object-fit: contain;
 }
 
 .portfolio-each-content > div:nth-child(1) {
