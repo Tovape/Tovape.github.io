@@ -243,13 +243,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	})
 	
 	$("#portfolio-default").click();
-
-	/* Ambient light - Disabled
-    temp1 = document.querySelectorAll(".portfolio-flex");
-    for(let i = 0; i < temp1.length; i++) {
-        temp1[i].addEventListener("mousemove", (e) => { const { x, y } = temp1[i].getBoundingClientRect(); temp1[i].style.setProperty("--x", e.clientX - x); temp1[i].style.setProperty("--y", e.clientY - y); });
-    }
-	*/
 });
 
 // Skills Switch
