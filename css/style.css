@@ -1141,7 +1141,7 @@ ul {
 	flex-direction: row;
 	justify-content: space-between;
 	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-bottom: 180px;
 	gap: 40px;
 }
 
@@ -1152,7 +1152,7 @@ ul {
     height: 800px;
     background: radial-gradient(rgba(239, 126, 126, 0.7) 0%, transparent 70%);
 	z-index: 1;
-    top: 50px;
+    top: 200px;
     left: calc(50% - 550px);
 	transform-origin: calc(50% - -150px) calc(50% - -10px);
 	animation: footerCircleOne 3s linear infinite;
@@ -1165,7 +1165,7 @@ ul {
     height: 800px;
     background: radial-gradient(rgba(56, 73, 124, 0.7) 0%, transparent 70%);
 	z-index: 1;
-    top: 50px;
+    top: 200px;
     left: calc(50% - 250px);
 	animation-delay: 3.6s;
 	transform-origin: calc(50% - 150px) calc(50% - -10px);
@@ -1180,6 +1180,11 @@ ul {
 @keyframes footerCircleTwo {
 	0% { rotate: 180deg; }
 	100% { rotate: 540deg; }
+}
+
+.footer > div > div {
+	position: relative;
+	z-index: 2;
 }
 
 .footer > div > div:nth-child(1) > div {
