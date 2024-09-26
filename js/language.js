@@ -200,6 +200,13 @@ var arrLang = {
 		<li>HTML, CSS, EJS, NodeJS, MongoDB, mongoose</li>
 		<li>User Accounts, API, EJS Components</li>
 		`,
+		
+		'experience-title-8': 'Freelance Work',
+		'experience-date-8': 'February 2017 - May 2022',
+		'experience-list-8': `
+		<li>FornArmengol, LaCasaDeAsterion, Decosol, Samok</li>
+		<li>HTML, CSS, JS, PHP, MySQL, Wordpress, Hosting & Domains</li>
+		`,
 	
 	// Contact
 	'contact': 'Contact',
@@ -417,6 +424,13 @@ var arrLang = {
 		<li>Cuenta de usuario, API, Componentes EJS</li>
 		`,
 		
+		'experience-title-8': 'Trabajo Freelance',
+		'experience-date-8': 'Febrero 2017 - Mayo 2022',
+		'experience-list-8': `
+		<li>FornArmengol, LaCasaDeAsterion, Decosol, Samok</li>
+		<li>HTML, CSS, JS, PHP, MySQL, Wordpress, Hosting y Dominios</li>
+		`,
+		
 	// Contact
 	'contact': 'Contacto',
 	'contact-phone': 'Móvil',
@@ -631,6 +645,13 @@ var arrLang = {
 		<li>Plataforma per esports en viu i apostes</li>
 		<li>HTML, CSS, EJS, NodeJS, MongoDB, mongoose</li>
 		<li>Compte d usuari, API, Components EJS</li>
+		`,
+		
+		'experience-title-8': 'Treball Freelance',
+		'experience-date-8': 'Febrer 2017 - Maig 2022',
+		'experience-list-8': `
+		<li>FornArmengol, LaCasaDeAsterion, Decosol, Samok</li>
+		<li>HTML, CSS, JS, PHP, MySQL, Wordpress, Hosting i Dominis</li>
 		`,
 		
 	// Contact
