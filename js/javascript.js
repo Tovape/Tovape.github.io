@@ -315,6 +315,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	}
 });
 
+// Height
+function fullHeight(dom) {
+	document.addEventListener("DOMContentLoaded", function(event) { 
+		var temp = window.innerHeight;
+		if (dom) {
+			dom.style.height = temp + "px";
+		}
+	})
+}
+
 // ASCII
 var backtick = "`";
 console.log(`%c 

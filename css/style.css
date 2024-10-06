@@ -436,7 +436,6 @@ ul {
 .introduction-flex {
 	display: flex;
 	flex-direction: row;
-	height: 620px;
 	padding-top: 80px;
 }
 
