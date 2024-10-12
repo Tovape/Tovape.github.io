@@ -437,6 +437,7 @@ ul {
 	display: flex;
 	flex-direction: row;
 	padding-top: 80px;
+	max-height: 700px !important;
 }
 
 .introduction-flex > div:nth-child(1) {
