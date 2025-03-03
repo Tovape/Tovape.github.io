@@ -131,7 +131,10 @@ var arrLang = {
 		
 		'portfolio-description-11': 'Manager Suite for Tasks',
 		'portfolio-features-11': `
-		<li>Work in progress, check github for progress</li>
+		<li>Multi aplication for various tasks</li>
+		<li>Gamified productivity app experience</li>
+		<li>Home/Weather page/Notes/Garage Managing/Timeline/Backup overwiew/Finances/Projects/Roulette & Settings</li>
+		<li>Still not published but have plans to</li>
 		`,
 	
 	// Skills
@@ -354,7 +357,10 @@ var arrLang = {
 		
 		'portfolio-description-11': 'Manager Suite for Tasks',
 		'portfolio-features-11': `
-		<li>Work in progress, check github for progress</li>
+		<li>Aplicación múltiple para diversas tareas</li>
+		<li>Experiencia de aplicación de productividad gamificada</li>
+		<li>Inicio/Página del tiempo/Notas/Gestión del garaje/Cronograma/Copias de seguridad/Finanzas/Proyectos/Ruleta y configuraciones</li>
+		<li>Aún no se ha publicado, pero hay planes para hacerlo</li>
 		`,
 		
 	// Skills
@@ -577,7 +583,10 @@ var arrLang = {
 		
 		'portfolio-description-11': 'Manager Suite for Tasks',
 		'portfolio-features-11': `
-		<li>Work in progress, check github for progress</li>
+		<li>Múltiple aplicació per a diverses tasques</li>
+		 <li>Experiència d'aplicació de productivitat amb jocs</li>
+		 <li>Inici/Pàgina del temps/Notes/Gestió del garatge/Línia de temps/Còpies de seguretat/Finances/Projectes/Ruleta i configuració</li>
+		 <li>Encara no s'ha publicat, però tens previst fer-ho</li>
 		`,
 
 	// Skills

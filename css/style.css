@@ -903,6 +903,10 @@ ul {
 	padding-top: 10px;
 }
 
+.portfolio-each-content > div:nth-child(1) > div:nth-child(2) > div ul li {
+	margin-bottom: 6px;
+}
+
 .portfolio-fadeout {
 	opacity: 0;
 	transition: all 0.25s ease-in-out;
