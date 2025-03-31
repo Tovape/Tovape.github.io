@@ -933,7 +933,7 @@ ul {
 	top: 0;
 	left: 0;
 	cursor: auto;
-	z-index: 2;
+	z-index: 6;
 	background-color: white;
 	visibility: visible;
 	opacity: 1;
