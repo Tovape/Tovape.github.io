@@ -1049,7 +1049,7 @@ ul {
 .experience-flex > div img {
 	height: 20px;
 	width: auto;
-	margin-right: 20px;
+	margin-right: 16px;
 }
 
 .experience-flex p:nth-child(1) {

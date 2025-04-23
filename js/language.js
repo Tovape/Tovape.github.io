@@ -210,6 +210,12 @@ var arrLang = {
 		<li>FornArmengol, LaCasaDeAsterion, Decosol, Samok</li>
 		<li>HTML, CSS, JS, PHP, MySQL, Wordpress, Hosting & Domains</li>
 		`,
+		
+		'experience-title-9': 'La Teva Web',
+		'experience-date-9': 'April 2025 - Present',
+		'experience-list-9': `
+		<li>HTML, CSS, SASS, Tailwind, Wordpress, PHP, Figma, Trello</li>
+		`,
 	
 	// Contact
 	'contact': 'Contact',
@@ -437,6 +443,12 @@ var arrLang = {
 		<li>HTML, CSS, JS, PHP, MySQL, Wordpress, Hosting y Dominios</li>
 		`,
 		
+		'experience-title-9': 'La Teva Web',
+		'experience-date-9': 'Abril 2025 - Presente',
+		'experience-list-9': `
+		<li>HTML, CSS, SASS, Tailwind, Wordpress, PHP, Figma, Trello</li>
+		`,
+		
 	// Contact
 	'contact': 'Contacto',
 	'contact-phone': 'Móvil',
@@ -648,7 +660,7 @@ var arrLang = {
 		<li>Blog Posts</li>
 		`,
 		
-		'experience-title-7': 'Plataforma d apostes',
+		'experience-title-7': 'Plataforma apostes',
 		'experience-date-7': 'Juny - Novembre 2023',
 		'experience-list-7': `
 		<li>Plataforma per esports en viu i apostes</li>
@@ -661,6 +673,12 @@ var arrLang = {
 		'experience-list-8': `
 		<li>FornArmengol, LaCasaDeAsterion, Decosol, Samok</li>
 		<li>HTML, CSS, JS, PHP, MySQL, Wordpress, Hosting i Dominis</li>
+		`,
+		
+		'experience-title-9': 'La Teva Web',
+		'experience-date-9': 'Abril 2025 - Actualitat',
+		'experience-list-9': `
+		<li>HTML, CSS, SASS, Tailwind, Wordpress, PHP, Figma, Trello</li>
 		`,
 		
 	// Contact
